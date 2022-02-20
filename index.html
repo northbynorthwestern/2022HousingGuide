@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+  </head>
+  <body onload="makeDorms();">
+    <div id="header"></div>
+    <div id="content">
+      <h1 id="title">THE HOUSING GUIDE</h1>
+      <p style="color: black; display: inline-block; padding-top: 0">
+        Choosing a Dorm can be difficult. Welcome North By Northwestern's
+        Housing Guide, the best and only catalog on every dorm on campus.
+      </p>
+      <br />
+      <div class="container">
+        <div id="map">map</div>
+        <div id="dorms"></div>
+        <div id="filters">
+          <h3 id="filter-title">FILTERS</h3>
+          <form>
+            <label for="north">North Campus</label>
+            <input type="checkbox" id="north" name="north" /><br />
+            <label for="south">South Campus</label>
+            <input type="checkbox" id="south" name="south" />
+            <br /><br />
+            <label for="hall">Res Hall</label>
+            <input
+              type="checkbox"
+              onclick="dorm_type();"
+              id="hall"
+              name="hall"
+            /><br />
+            <label for="college">Res College</label>
+            <input type="checkbox" id="college" name="college" /><br /><br />
+            <label for="verysmall">> 50</label>
+            <input type="checkbox" id="verysmall" name="verysmall" /><br />
+            <label for="college">50 > 100</label>
+            <input type="checkbox" id="college" name="college" /><br />
+            <label for="college">100 > 200</label>
+            <input type="checkbox" id="college" name="college" /><br />
+            <label for="college">200 <</label>
+            <input type="checkbox" id="college" name="college" />
+          </form>
+        </div>
+        <div id="explanation">explain filters</div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

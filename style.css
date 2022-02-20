@@ -1,0 +1,116 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  margin: 0;
+  height: 10vh;
+  background-color: #8f68c0;
+  z-index: 100;
+}
+#content {
+  margin-top: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  color: white;
+  text-align: left;
+}
+#title {
+  color: white;
+  background-color: #8f68c0;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-bottom: 0;
+}
+button {
+  font-weight: bold;
+  color: white;
+  background-color: #8f68c0;
+  border: none;
+  padding: 6px;
+  border-radius: 7px;
+}
+button:hover {
+  opacity: 0.3;
+}
+.container {
+  display: grid;
+  width: 80vw;
+  margin-top: 0vh;
+  grid-template-columns: 20vw 35vw 20vw;
+  grid-template-rows: 50vh 20vh;
+  column-gap: 2.5vw;
+  row-gap: 2.5vh;
+  grid-template-areas:
+    "a b c"
+    "d d d";
+}
+#map,
+#filters,
+#explanation {
+  padding: 10px;
+}
+#map {
+  background-color: grey;
+  grid-area: a;
+  z-index: 1;
+}
+#dorms {
+  grid-area: b;
+  overflow-y: auto;
+}
+#filters {
+  background-color: rgb(114, 66, 175, 25%);
+  color: black;
+  grid-area: c;
+  font-size: 14px;
+}
+#explanation {
+  background-color: grey;
+  grid-area: d;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  font-size: 12px;
+  border: 1px solid white;
+  padding: 6px;
+  width: 100%;
+  color: black;
+  font-family: sans-serif;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(114, 66, 175, 25%);
+}
+
+tr:hover {
+  background-color: rgb(0, 0, 0, 25%);
+}
+
+#filter-title {
+  margin: 0;
+  padding: 2px 3px;
+  font-size: 14px;
+  background-color: #8f68c0;
+  display: inline-block;
+  font-style: italic;
+  color: white;
+}
+
+.green {
+  background-color: "green";
+}
