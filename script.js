@@ -28,12 +28,13 @@ const dorms = [
 const dorm_names = document.querySelector("#dorms");
 const filters = document.querySelector("#filters");
 
-function makeDorms() {
+const makeDorms = () => {
   let table_rows = document.createElement("tr");
   table_rows.innerHTML = `<th class="dorm-name">Hall</th> <th class="dorm-size">Size</th> <th class="dorm-type">Type</th>`;
   dorm_names.appendChild(table_rows);
   for (let i = 0; i < dorms.length; i++) {
     let newItem = document.createElement("tr");
+    newItem.className = `${dorms[i].name}`;
     newItem.innerHTML = `<td class="dorm-name">${dorms[i].name}</td> <td class="dorm-size">${dorms[i].size}</td> <td class="dorm-type">${dorms[i].type}</td>`;
     dorm_names.appendChild(newItem);
   }
@@ -41,21 +42,49 @@ function makeDorms() {
   form.innerHTML = ``;
 
   filters.appendChild(form);
-}
+};
+makeDorms();
 
-function dorm_type() {
-  // console.log(hall_check.checked);
-  //  console.log(college_check.checked);
+const checkboxes = Object.values(
+  document.querySelectorAll("input[type=checkbox]")
+);
 
-  let dormselection = document.querySelectorAll("tr");
-  for (let i = 0; i < dormselection.length; i++) {
-    let hall_check = document.querySelector("#hall");
-    let college_check = document.querySelector("#college");
-    if (hall_check.checked) {
-      dormselection[i].style.backgroundColor = "green";
-    }
+//get all currently checked filters
+checkboxes.forEach((checkbox) => {
+  checkbox.addEventListener("change", () =>
+    getCurrDormsByFilter(
+      Object.values(document.querySelectorAll("input[type=checkbox]"))
+        .filter((c) => c.checked)
+        .map((c) => c.id)
+    )
+  );
+});
 
-    dormselection[i].classList.add("green");
+function getCurrDormsByFilter(filterArr) {
+  //clear classlist
+  Object.values(document.querySelectorAll("tr")).map((d, i) => {
+    if (i % 2 === 1) {
+      d.style.backgroundColor = "rgb(114, 66, 175, 25%)";
+    } else d.style.backgroundColor = "white";
+  });
+
+  console.log(filterArr);
+  const locationsCheck = filterArr.filter((i) => i == "South" || i == "North");
+  const collegeCheck = filterArr.filter((i) => i == "Hall" || i == "College");
+
+  const dormsFiltered = dorms
+    .filter((dorm) => collegeCheck.includes(dorm.type))
+    .map((d) => d.name);
+
+  //check the part of campus
+  const dormSelection = Object.values(document.querySelectorAll("tr")).filter(
+    (d) => dormsFiltered.includes(d.className)
+  );
+
+  console.log(dormSelection);
+
+  for (let i = 0; i < dormSelection.length; i++) {
+    dormSelection[i].style.backgroundColor = "lightGreen";
   }
 }
 

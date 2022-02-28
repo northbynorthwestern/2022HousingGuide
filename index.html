@@ -7,7 +7,11 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap" rel="stylesheet">    <link
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
       integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -19,7 +23,7 @@
       crossorigin=""
     ></script>
   </head>
-  <body onload="makeDorms();">
+  <body>
     <div id="header"></div>
     <div id="content">
       <h1 id="title">NBN HOUSING GUIDE 2022</h1>
@@ -35,19 +39,14 @@
           <h3 id="filter-title">FILTERS</h3>
           <form>
             <label for="north">North Campus</label>
-            <input type="checkbox" id="north" name="north" /><br />
+            <input type="checkbox" id="North" name="north" /><br />
             <label for="south">South Campus</label>
-            <input type="checkbox" id="south" name="south" />
+            <input type="checkbox" id="South" name="south" />
             <br /><br />
             <label for="hall">Res Hall</label>
-            <input
-              type="checkbox"
-              onclick="dorm_type();"
-              id="hall"
-              name="hall"
-            /><br />
+            <input type="checkbox" id="Hall" name="hall" /><br />
             <label for="college">Res College</label>
-            <input type="checkbox" id="college" name="college" /><br /><br />
+            <input type="checkbox" id="College" name="college" /><br /><br />
             <label for="verysmall">> 50</label>
             <input type="checkbox" id="verysmall" name="verysmall" /><br />
             <label for="college">50 > 100</label>

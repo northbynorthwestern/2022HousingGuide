@@ -7,27 +7,26 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.15rem;
 }
-h2{
+h2 {
   color: black;
   font-family: "PT Sans", sans-serif;
   font-weight: 500;
   font-size: 1.4rem;
 }
-h3{
+h3 {
   color: black;
 }
-h4{
+h4 {
   font-family: "Open Sans";
-  background-color:#8f68c0;
+  background-color: #8f68c0;
   color: white;
   display: inline-block;
   padding: 6px 10px;
   border-radius: 14px;
   margin: 0.3rem 0;
   font-weight: 400;
-  
 }
-h5{
+h5 {
   color: black;
 }
 #header {
@@ -134,9 +133,6 @@ tr:hover {
   color: white;
 }
 
-.green {
-  background-color: "green";
-}
 .dorm-container {
   display: grid;
   width: 80vw;
@@ -144,12 +140,11 @@ tr:hover {
   grid-template-columns: 37.5vw 37.5vw;
   grid-template-rows: 75vh;
   column-gap: 5vw;
-  grid-template-areas:
-    "x y";
+  grid-template-areas: "x y";
 }
-#left{
+#left {
   grid-area: x;
 }
-#right{
+#right {
   grid-area: y;
 }
