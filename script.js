@@ -1,4 +1,5 @@
 const dorms = [
+<<<<<<< Updated upstream
   { name: "1838 Chicago Ave.", size: "120", type: "Hall" },
   { name: "2303 Sheridan Rd. (CCS)", size: "40", type: "College" },
   { name: "2303 Sheridan Rd. (GREEN House)", size: "40", type: "Hall" },
@@ -23,6 +24,39 @@ const dorms = [
   { name: "South Mid-Quads", size: "88", type: "College" },
   { name: "West Fairchild", size: "106", type: "College" },
   { name: "Willard Hall", size: "261", type: "College" },
+=======
+  { name: "Allison Hall", size: "363", type: "Hall", location: "South", dining: "yes", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "yes", },
+  { name: "Ayers Hall", size: "170", type: "College", location: "North", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "Bobb-McCulloch Hall", size: "496", type: "Hall", location: "North", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "no", doubles: "yes", triples: "yes", },
+  { name: "Chapin Hall", size: "72", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "yes", },
+  { name: "East Fairchild", size: "109", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "Elder Hall", size: "345", type: "Hall", location: "North", dining: "yes", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "Foster-Walker Complex", size: "582", type: "Hall", location: "South", dining: "yes", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "no", triples: "no", },
+  { name: "Goodrich House", size: "<100", type: "Hall", location: "North", dining: "no", firstyear: "no", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "Hobart House", size: "50", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "yes", },
+  { name: "Jones Hall", size: "121", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "Kemper Hall", size: "165", type: "Hall", location: "North", dining: "no", firstyear: "yes", ac: "yes", suite: "yes", elevator: "yes", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "Lindgren House", size: "37", type: "Hall", location: "North", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "no", triples: "no", },
+  { name: "North Mid-Quads", size: "88", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "Rogers House", size: "49", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "Sargent Hall", size: "157", type: "Hall", location: "North", dining: "yes", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "Shepard Hall", size: "153", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "Slivka Hall", size: "140", type: "College", location: "North", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "South Mid-Quads", size: "88", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "West Fairchild", size: "106", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "Willard Hall", size: "261", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "yes", },
+  { name: "1838 Chicago Ave.", size: "120", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "636 Emerson", size: "<100", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "640 Emerson", size: "<100", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "710 Emerson Ave", size: "<100", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "1856 Orrington Ave.", size: "<100", type: "Hall", location: "South", dining: "no", firstyear: "no", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "2303 Sheridan Rd. (CCS)", size: "40", type: "College", location: "North", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "yes", },
+  { name: "2303 Sheridan Rd. (GREEN House)", size: "40", type: "Hall", location: "North", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "yes", },
+  { name: "2307 Sheridan Rd.", size: "<100", type: "Hall", location: "North", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "2347 Sheridan Rd.", size: "<100", type: "Hall", location: "North", dining: "no", firstyear: "no", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "2349 Sheridan Rd.", size: "<100", type: "Hall", location: "North", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "no", doubles: "yes", triples: "no", },
+  { name: "560 Lincoln St.", size: "422", type: "Hall", location: "North", dining: "no", firstyear: "yes", ac: "yes", suite: "yes", elevator: "yes", singles: "yes", doubles: "yes", triples: "no", },
+>>>>>>> Stashed changes
 ];
 
 const dorm_names = document.querySelector("#dorms");

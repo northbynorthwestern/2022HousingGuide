@@ -15,14 +15,14 @@ h2 {
 }
 h3 {
   color: black;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 h4 {
   font-family: "Open Sans";
   background-color: #8f68c0;
   color: white;
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding: 6px 10px;
   border-radius: 14px;
   margin: 0.3rem 0;
@@ -35,7 +35,12 @@ h5 {
 }
 p{
   color:  black;
+<<<<<<< Updated upstream
   font-size: 0.9rem;
+=======
+  font-size: 1rem;
+  font-family: serif;
+>>>>>>> Stashed changes
 }
 #header {
   position: fixed;
@@ -43,7 +48,7 @@ p{
   left: 0;
   width: 100vw;
   margin: 0;
-  height: 10vh;
+  height: 9vh;
   background-color: #8f68c0;
   z-index: 100;
 }
@@ -76,13 +81,13 @@ button:hover {
   display: grid;
   width: 80vw;
   margin-top: 0vh;
-  grid-template-columns: 20vw 35vw 20vw;
-  grid-template-rows: 50vh 15vh;
+  grid-template-columns: 25vw 25vw 25vw;
+  grid-template-rows: 40vh 25vh;
   column-gap: 2.5vw;
   row-gap: 2.5vh;
   grid-template-areas:
     "a b c"
-    "d d d";
+    "a b d";
 }
 #map,
 #filters,
@@ -93,6 +98,7 @@ button:hover {
   background-color: grey;
   grid-area: a;
   z-index: 1;
+  /* height: 65vh; */
 }
 #dorms {
   grid-area: b;
@@ -134,7 +140,7 @@ tr:hover {
 #filter-title {
   margin: 0;
   padding: 2px 3px;
-  font-size: 14px;
+  font-size: 16px;
   background-color: #8f68c0;
   display: inline-block;
   font-style: italic;
@@ -155,4 +161,24 @@ tr:hover {
 }
 #right {
   grid-area: y;
+}
+label{
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    display: grid;
+    width: 80vw;
+    margin-top: 0vh;
+    grid-template-columns: 36vw 36vw;
+    grid-template-rows: auto auto auto;
+    column-gap: 2.5vw;
+    row-gap: 2.5vh;
+    grid-template-areas:
+      "a c"
+      "b b"
+      "d d";
+  }
 }
