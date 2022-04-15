@@ -80,7 +80,7 @@ button:hover {
   margin-top: 0vh;
   grid-template-columns: 20vw 35vw 20vw;
   grid-template-rows: 50vh 15vh;
-  column-gap: 2.5vw;
+  column-gap: 2.5vh;
   row-gap: 2.5vh;
   grid-template-areas:
     "a b c"
@@ -90,6 +90,7 @@ button:hover {
 #filters,
 #explanation {
   padding: 10px;
+  border-radius: 5px;
 }
 #map {
   background-color: grey;
@@ -99,6 +100,8 @@ button:hover {
 #dorms {
   grid-area: b;
   overflow-y: auto;
+  border-radius: 5px;
+
 }
 #filters {
   background-color: rgb(114, 66, 175, 25%);

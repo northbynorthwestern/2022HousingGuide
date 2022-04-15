@@ -19,7 +19,7 @@ const dorms = [
   { name: "South Mid-Quads", size: "88", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
   { name: "West Fairchild", size: "106", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
   { name: "Willard Hall", size: "261", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "yes", },
-  { name: "1838 Chicago Ave.", size: "120", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
+  { name: "1838 Chicago Ave.", size: "120", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", address: "1838 Chicago Ave.", tech: "12", norris: "6", rock: "2", doublePrice: "", singlePrice: "", description: "description", testimonial: "testimonial", },
   { name: "636 Emerson", size: "<100", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
   { name: "640 Emerson", size: "<100", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
   { name: "710 Emerson Ave", size: "<100", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
@@ -42,7 +42,7 @@ const makeDorms = () => {
   for (let i = 0; i < dorms.length; i++) {
     let newItem = document.createElement("tr");
     newItem.className = `${dorms[i].name}`;
-    newItem.innerHTML = `<td class="dorm-name">${dorms[i].name}</td> <td class="dorm-size">${dorms[i].size}</td> <td class="dorm-type">${dorms[i].type}</td>`;
+    newItem.innerHTML = `<td class="dorm-name" onclick="makePage(${[i]});">${dorms[i].name}</td> <td class="dorm-size">${dorms[i].size}</td> <td class="dorm-type">${dorms[i].type}</td>`;
     dorm_names.appendChild(newItem);
   }
   let form = document.createElement("form");
@@ -95,6 +95,42 @@ function getCurrDormsByFilter(filterArr) {
   }
 }
 
+const makePage = (i) => {
+  let content = document.querySelector("#content");
+  content.innerHTML = "";
+  content.innerHTML = `<h1 id="title">${dorms[i].name}</h1>
+  <div class="dorm-container">
+    <div id="left">
+      <h2>${dorms[i].address}</h2>
+      <h4>${dorms[i].location}</h4>
+      <h4>Residential ${dorms[i].type}</h4>
+      <div id="map" style="height: 30vh; margin-top: 20px;"></div>
+      <h3>VITAL STATS</h3>
+      <h5>${dorms[i].norris} Minute Walk To Norris</h5>
+      <h5>${dorms[i].rock} Minute Walk To Rock</h5>
+      <h5>${dorms[i].tech} Minute Walk To Tech</h5>
+      <h5>Air Conditioning: ${dorms[i].ac}</h5>
+      <h5>${dorms[i].doublePrice}</h5>
+      <h5>${dorms[i].singlePrice}</h5>
+      <h5>${dorms[i].size} Residents</h5>
+      <br>
+    </div>
+
+    <div id="right">
+      <p>${dorms[i].description}</p>
+      <img>
+      <p>WHAT RESIDENTS SAY
+      ${dorms[i].testimonial}
+      </p>
+      <p>
+      "The dorm has really nice facilities and a lot of great social spaces. Despite that, I feel like 1838's size lends itself to smaller friendship groups instead of a larger dorm community. South campus is great because it makes access to Evanston really convenient, and puts Medill and Comm kids right next to their classes. That being said, the walk up Sheridan does make you feel like you're missing out on most of the social happenings on campus."
+      Luke Holey, Communication freshman
+      </p>
+
+    </div>`;
+
+};
+
 let latitude = 42.0566723;
 let longitude = -87.6750685;
 let mymap;
@@ -113,4 +149,4 @@ L.tileLayer(
   }
 ).addTo(mymap);
 
-function createDorm() {}
+
