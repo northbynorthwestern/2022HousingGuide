@@ -1,35 +1,446 @@
 const dorms = [
-  { name: "Allison Hall", size: "363", type: "Hall", location: "South", dining: "yes", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "yes", },
-  { name: "Ayers Hall", size: "170", type: "College", location: "North", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "Bobb-McCulloch Hall", size: "496", type: "Hall", location: "North", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "no", doubles: "yes", triples: "yes", },
-  { name: "Chapin Hall", size: "72", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "yes", },
-  { name: "East Fairchild", size: "109", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "Elder Hall", size: "345", type: "Hall", location: "North", dining: "yes", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "Foster-Walker Complex", size: "582", type: "Hall", location: "South", dining: "yes", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "no", triples: "no", },
-  { name: "Goodrich House", size: "<100", type: "Hall", location: "North", dining: "no", firstyear: "no", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "Hobart House", size: "50", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "yes", },
-  { name: "Jones Hall", size: "121", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "Kemper Hall", size: "165", type: "Hall", location: "North", dining: "no", firstyear: "yes", ac: "yes", suite: "yes", elevator: "yes", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "Lindgren House", size: "37", type: "Hall", location: "North", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "no", triples: "no", },
-  { name: "North Mid-Quads", size: "88", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "Rogers House", size: "49", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "Sargent Hall", size: "157", type: "Hall", location: "North", dining: "yes", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "Shepard Hall", size: "153", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "Slivka Hall", size: "140", type: "College", location: "North", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "South Mid-Quads", size: "88", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "West Fairchild", size: "106", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "Willard Hall", size: "261", type: "College", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "yes", singles: "yes", doubles: "yes", triples: "yes", },
-  { name: "1838 Chicago Ave.", size: "120", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", address: "1838 Chicago Ave.", tech: "12", norris: "6", rock: "2", doublePrice: "", singlePrice: "", description: "description", testimonial: "testimonial", },
-  { name: "636 Emerson", size: "<100", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "640 Emerson", size: "<100", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "710 Emerson Ave", size: "<100", type: "Hall", location: "South", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "1856 Orrington Ave.", size: "<100", type: "Hall", location: "South", dining: "no", firstyear: "no", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "2303 Sheridan Rd. (CCS)", size: "40", type: "College", location: "North", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "yes", },
-  { name: "2303 Sheridan Rd. (GREEN House)", size: "40", type: "Hall", location: "North", dining: "no", firstyear: "yes", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "yes", },
-  { name: "2307 Sheridan Rd.", size: "<100", type: "Hall", location: "North", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "2347 Sheridan Rd.", size: "<100", type: "Hall", location: "North", dining: "no", firstyear: "no", ac: "yes", suite: "no", elevator: "no", singles: "yes", doubles: "yes", triples: "no", },
-  { name: "2349 Sheridan Rd.", size: "<100", type: "Hall", location: "North", dining: "no", firstyear: "yes", ac: "no", suite: "no", elevator: "no", singles: "no", doubles: "yes", triples: "no", },
-  { name: "560 Lincoln St.", size: "422", type: "Hall", location: "North", dining: "no", firstyear: "yes", ac: "yes", suite: "yes", elevator: "yes", singles: "yes", doubles: "yes", triples: "no", },
+  {
+    name: "Allison Hall",
+    size: "363",
+    type: "Hall",
+    location: "South",
+    dining: "yes",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "yes",
+    singles: "yes",
+    doubles: "yes",
+    triples: "yes",
+  },
+  {
+    name: "Ayers Hall",
+    size: "170",
+    type: "College",
+    location: "North",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "yes",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "Bobb-McCulloch Hall",
+    size: "496",
+    type: "Hall",
+    location: "North",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "no",
+    singles: "no",
+    doubles: "yes",
+    triples: "yes",
+  },
+  {
+    name: "Chapin Hall",
+    size: "72",
+    type: "College",
+    location: "South",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "yes",
+    singles: "yes",
+    doubles: "yes",
+    triples: "yes",
+  },
+  {
+    name: "East Fairchild",
+    size: "109",
+    type: "College",
+    location: "South",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "yes",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "Elder Hall",
+    size: "345",
+    type: "Hall",
+    location: "North",
+    dining: "yes",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "yes",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "Foster-Walker Complex",
+    size: "582",
+    type: "Hall",
+    location: "South",
+    dining: "yes",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "yes",
+    singles: "yes",
+    doubles: "no",
+    triples: "no",
+  },
+  {
+    name: "Goodrich House",
+    size: "<100",
+    type: "Hall",
+    location: "North",
+    dining: "no",
+    firstyear: "no",
+    ac: "yes",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "Hobart House",
+    size: "50",
+    type: "College",
+    location: "South",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "yes",
+  },
+  {
+    name: "Jones Hall",
+    size: "121",
+    type: "Hall",
+    location: "South",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "yes",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "Kemper Hall",
+    size: "165",
+    type: "Hall",
+    location: "North",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "yes",
+    elevator: "yes",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "Lindgren House",
+    size: "37",
+    type: "Hall",
+    location: "North",
+    dining: "no",
+    firstyear: "yes",
+    ac: "no",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "no",
+    triples: "no",
+  },
+  {
+    name: "North Mid-Quads",
+    size: "88",
+    type: "College",
+    location: "South",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "Rogers House",
+    size: "49",
+    type: "Hall",
+    location: "South",
+    dining: "no",
+    firstyear: "yes",
+    ac: "no",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "Sargent Hall",
+    size: "157",
+    type: "Hall",
+    location: "North",
+    dining: "yes",
+    firstyear: "yes",
+    ac: "no",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "Shepard Hall",
+    size: "153",
+    type: "Hall",
+    location: "South",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "Slivka Hall",
+    size: "140",
+    type: "College",
+    location: "North",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "yes",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "South Mid-Quads",
+    size: "88",
+    type: "College",
+    location: "South",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "West Fairchild",
+    size: "106",
+    type: "College",
+    location: "South",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "Willard Hall",
+    size: "261",
+    type: "College",
+    location: "South",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "yes",
+    singles: "yes",
+    doubles: "yes",
+    triples: "yes",
+  },
+  {
+    name: "1838 Chicago Ave.",
+    size: "120",
+    type: "Hall",
+    location: "South",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+    address: "1838 Chicago Ave.",
+    tech: "12",
+    norris: "6",
+    rock: "2",
+    doublePrice: "",
+    singlePrice: "",
+    description: "description",
+    testimonial: "testimonial",
+  },
+  {
+    name: "636 Emerson",
+    size: "<100",
+    type: "Hall",
+    location: "South",
+    dining: "no",
+    firstyear: "yes",
+    ac: "no",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "640 Emerson",
+    size: "<100",
+    type: "Hall",
+    location: "South",
+    dining: "no",
+    firstyear: "yes",
+    ac: "no",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "710 Emerson Ave",
+    size: "<100",
+    type: "Hall",
+    location: "South",
+    dining: "no",
+    firstyear: "yes",
+    ac: "no",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "1856 Orrington Ave.",
+    size: "<100",
+    type: "Hall",
+    location: "South",
+    dining: "no",
+    firstyear: "no",
+    ac: "no",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "2303 Sheridan Rd. (CCS)",
+    size: "40",
+    type: "College",
+    location: "North",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "yes",
+  },
+  {
+    name: "2303 Sheridan Rd. (GREEN House)",
+    size: "40",
+    type: "Hall",
+    location: "North",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "yes",
+  },
+  {
+    name: "2307 Sheridan Rd.",
+    size: "<100",
+    type: "Hall",
+    location: "North",
+    dining: "no",
+    firstyear: "yes",
+    ac: "no",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "2347 Sheridan Rd.",
+    size: "<100",
+    type: "Hall",
+    location: "North",
+    dining: "no",
+    firstyear: "no",
+    ac: "yes",
+    suite: "no",
+    elevator: "no",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "2349 Sheridan Rd.",
+    size: "<100",
+    type: "Hall",
+    location: "North",
+    dining: "no",
+    firstyear: "yes",
+    ac: "no",
+    suite: "no",
+    elevator: "no",
+    singles: "no",
+    doubles: "yes",
+    triples: "no",
+  },
+  {
+    name: "560 Lincoln St.",
+    size: "422",
+    type: "Hall",
+    location: "North",
+    dining: "no",
+    firstyear: "yes",
+    ac: "yes",
+    suite: "yes",
+    elevator: "yes",
+    singles: "yes",
+    doubles: "yes",
+    triples: "no",
+  },
 ];
 
 const dorm_names = document.querySelector("#dorms");
@@ -42,7 +453,11 @@ const makeDorms = () => {
   for (let i = 0; i < dorms.length; i++) {
     let newItem = document.createElement("tr");
     newItem.className = `${dorms[i].name}`;
-    newItem.innerHTML = `<td class="dorm-name" onclick="makePage(${[i]});">${dorms[i].name}</td> <td class="dorm-size">${dorms[i].size}</td> <td class="dorm-type">${dorms[i].type}</td>`;
+    newItem.innerHTML = `<td class="dorm-name" onclick="makePage(${[i]});">${
+      dorms[i].name
+    }</td> <td class="dorm-size">${dorms[i].size}</td> <td class="dorm-type">${
+      dorms[i].type
+    }</td>`;
     dorm_names.appendChild(newItem);
   }
   let form = document.createElement("form");
@@ -68,6 +483,7 @@ checkboxes.forEach((checkbox) => {
 });
 
 function getCurrDormsByFilter(filterArr) {
+  // console.log(filterArr);
   //clear classlist
   Object.values(document.querySelectorAll("tr")).map((d, i) => {
     if (i % 2 === 1) {
@@ -75,12 +491,32 @@ function getCurrDormsByFilter(filterArr) {
     } else d.style.backgroundColor = "white";
   });
 
-  console.log(filterArr);
-  const locationsCheck = filterArr.filter((i) => i == "South" || i == "North");
-  const collegeCheck = filterArr.filter((i) => i == "Hall" || i == "College");
+  const locationsCheck = filterArr.filter(
+    (i) => i === "South" || i === "North"
+  );
+
+  const collegeCheck = filterArr.filter((i) => i === "Hall" || i === "College");
+
+  const sizeCheck = filterArr.filter(
+    (i) => i === "verysmall" || i === "small" || i === "medium" || i === "large"
+  );
+
+  console.log(sizeCheck);
+
+  const filterBySize = (size, dorm) => {
+    if (size === "verysmall") {
+      return dorm.size < 50;
+    } else if (size === "small") {
+      return dorm.size >= 50 && dorm.size <= 100;
+    } else if (size === "medium") {
+      return dorm.size >= 101 && dorm.size <= 200;
+    } else if (size === "large") {
+      return dorm.size > 200;
+    }
+  };
 
   const dormsFiltered = dorms
-    .filter((dorm) => collegeCheck.includes(dorm.type))
+    .filter((dorm) => filterBySize(sizeCheck[0], dorm))
     .map((d) => d.name);
 
   //check the part of campus
@@ -88,7 +524,7 @@ function getCurrDormsByFilter(filterArr) {
     (d) => dormsFiltered.includes(d.className)
   );
 
-  console.log(dormSelection);
+  // console.log(dormSelection);
 
   for (let i = 0; i < dormSelection.length; i++) {
     dormSelection[i].style.backgroundColor = "lightGreen";
@@ -128,7 +564,6 @@ const makePage = (i) => {
       </p>
 
     </div>`;
-
 };
 
 let latitude = 42.0566723;
@@ -148,5 +583,3 @@ L.tileLayer(
       "pk.eyJ1IjoibmF0aGFuaWFsdG8iLCJhIjoiY2t3OXcyemF2MmNwZzJvbXAwNTF2Njk5aSJ9.g5JkFBgSBUAFUELfSubtpg",
   }
 ).addTo(mymap);
-
-
