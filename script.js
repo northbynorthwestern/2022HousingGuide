@@ -501,30 +501,65 @@ function getCurrDormsByFilter(filterArr) {
     (i) => i === "verysmall" || i === "small" || i === "medium" || i === "large"
   );
 
-  console.log(sizeCheck);
+  const roomCheck = filterArr.filter(
+    (i) => i === "singles" || i === "doubles" || i === "triples"
+  );
 
-  const filterBySize = (size, dorm) => {
-    if (size === "verysmall") {
-      return dorm.size < 50;
-    } else if (size === "small") {
-      return dorm.size >= 50 && dorm.size <= 100;
-    } else if (size === "medium") {
-      return dorm.size >= 101 && dorm.size <= 200;
-    } else if (size === "large") {
-      return dorm.size > 200;
-    }
+  const filterDormsByLocation = (filterArr, dorm) => {
+    return locationsCheck.length === 0
+      ? true
+      : (filterArr.includes("North") && dorm.location === "North") ||
+          (filterArr.includes("South") && dorm.location === "South");
+  };
+  const filterDormsByType = (filterArr, dorm) => {
+    return collegeCheck.length === 0
+      ? true
+      : (filterArr.includes("Hall") && dorm.type === "Hall") ||
+          (filterArr.includes("College") && dorm.type === "College");
+  };
+  const filterDormsBySize = (filterArr, dorm) => {
+    return sizeCheck.length === 0
+      ? true
+      : (filterArr.includes("verysmall") && dorm.size < 50) ||
+          (filterArr.includes("small") && dorm.size === "<100") ||
+          (filterArr.includes("small") &&
+            dorm.size >= 50 &&
+            dorm.size <= 100) ||
+          (filterArr.includes("medium") &&
+            dorm.size >= 101 &&
+            dorm.size <= 200) ||
+          (filterArr.includes("large") && dorm.size > 200);
   };
 
+  const filterDormsByRoom = (filterArr, dorm) => {
+    return roomCheck.length === 0
+      ? true
+      : (filterArr.includes("singles") && dorm.singles === "yes") ||
+          (filterArr.includes("doubles") && dorm.doubles === "yes") ||
+          (filterArr.includes("triples") && dorm.triples === "yes");
+  };
+  const filterDormsByDining = (filterArr, dorm) => {
+    return filterArr.includes("dining_hall") ? dorm.dining === "yes" : true;
+  };
+  const filterDormsByFreshmen = (filterArr, dorm) => {
+    return filterArr.includes("freshman") ? dorm.firstyear === "yes" : true;
+  };
+  const filterDormsByElevator = (filterArr, dorm) => {
+    return filterArr.includes("elevator") ? dorm.elevator === "yes" : true;
+  };
   const dormsFiltered = dorms
-    .filter((dorm) => filterBySize(sizeCheck[0], dorm))
+    .filter((dorm) => filterDormsByLocation(filterArr, dorm))
+    .filter((dorm) => filterDormsByType(filterArr, dorm))
+    .filter((dorm) => filterDormsBySize(filterArr, dorm))
+    .filter((dorm) => filterDormsByDining(filterArr, dorm))
+    .filter((dorm) => filterDormsByFreshmen(filterArr, dorm))
+    .filter((dorm) => filterDormsByElevator(filterArr, dorm))
+    .filter((dorm) => filterDormsByRoom(filterArr, dorm))
     .map((d) => d.name);
 
-  //check the part of campus
   const dormSelection = Object.values(document.querySelectorAll("tr")).filter(
     (d) => dormsFiltered.includes(d.className)
   );
-
-  // console.log(dormSelection);
 
   for (let i = 0; i < dormSelection.length; i++) {
     dormSelection[i].style.backgroundColor = "lightGreen";
