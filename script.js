@@ -12,6 +12,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "yes",
+    tech: "11",
+    norris: "6",
+    rock: "3",
   },
   {
     name: "Ayers Hall",
@@ -26,6 +29,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    tech: "7",
+    norris: "13",
+    rock: "16",
   },
   {
     name: "Bobb-McCulloch Hall",
@@ -40,6 +46,9 @@ const dorms = [
     singles: "no",
     doubles: "yes",
     triples: "yes",
+    tech: "3",
+    norris: "11",
+    rock: "12",
   },
   {
     name: "Chapin Hall",
@@ -54,6 +63,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "yes",
+    tech: "13",
+    norris: "10",
+    rock: "6",
   },
   {
     name: "East Fairchild",
@@ -68,6 +80,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    tech: "13",
+    norris: "5",
+    rock: "2",
   },
   {
     name: "Elder Hall",
@@ -82,6 +97,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    tech: "6",
+    norris: "13",
+    rock: "14",
   },
   {
     name: "Foster-Walker Complex",
@@ -96,6 +114,9 @@ const dorms = [
     singles: "yes",
     doubles: "no",
     triples: "no",
+    tech: "9",
+    norris: "7",
+    rock: "5",
   },
   {
     name: "Goodrich House",
@@ -124,6 +145,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "yes",
+    tech: "11",
+    norris: "7",
+    rock: "4",
   },
   {
     name: "Jones Hall",
@@ -138,6 +162,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    tech: "15",
+    norris: "7",
+    rock: "5",
   },
   {
     name: "Kemper Hall",
@@ -152,6 +179,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    tech: "7",
+    norris: "12",
+    rock: "14",
   },
   {
     name: "Lindgren House",
@@ -166,6 +196,9 @@ const dorms = [
     singles: "yes",
     doubles: "no",
     triples: "no",
+    tech: "3",
+    norris: "10",
+    rock: "13",
   },
   {
     name: "North Mid-Quads",
@@ -180,6 +213,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    tech: "12",
+    norris: "9",
+    rock: "5",
   },
   {
     name: "Rogers House",
@@ -194,6 +230,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    tech: "12",
+    norris: "8",
+    rock: "4",
   },
   {
     name: "Sargent Hall",
@@ -208,6 +247,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    tech: "2",
+    norris: "10",
+    rock: "11",
   },
   {
     name: "Shepard Hall",
@@ -222,6 +264,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    tech: "12",
+    norris: "8",
+    rock: "4",
   },
   {
     name: "Slivka Hall",
@@ -236,6 +281,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    tech: "6",
+    norris: "13",
+    rock: "14",
   },
   {
     name: "South Mid-Quads",
@@ -250,6 +298,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    tech: "13",
+    norris: "9",
+    rock: "5",
   },
   {
     name: "West Fairchild",
@@ -264,6 +315,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    tech: "12",
+    norris: "6",
+    rock: "2",
   },
   {
     name: "Willard Hall",
@@ -278,6 +332,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "yes",
+    tech: "14",
+    norris: "11",
+    rock: "7",
   },
   {
     name: "1838 Chicago Ave.",
@@ -370,6 +427,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "yes",
+    tech: "3",
+    norris: "12",
+    rock: "12",
   },
   {
     name: "2303 Sheridan Rd. (GREEN House)",
@@ -384,6 +444,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "yes",
+    tech: "3",
+    norris: "12",
+    rock: "12",
   },
   {
     name: "2307 Sheridan Rd.",
@@ -440,6 +503,9 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    tech: "8",
+    norris: "14",
+    rock: "16",
   },
 ];
 

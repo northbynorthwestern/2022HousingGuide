@@ -3,6 +3,8 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
@@ -22,6 +24,7 @@
       integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
       crossorigin=""
     ></script>
+    <title>Housing Guide 2022</title>
   </head>
   <body>
     <div id="header"></div>
@@ -36,55 +39,67 @@
         <div id="map">map</div>
         <div id="dorms"></div>
         <div id="filters">
-          <h3 id="filter-title">FILTERS</h3>
+          <h3 id="filter-title">Filters</h3>
           <form>
             <h6>Location</h6>
+            <input type="checkbox" id="North" name="north" />
             <label for="north">North Campus</label>
-            <input type="checkbox" id="North" name="north" /><br />
-            <label for="south">South Campus</label>
+            <br />
             <input type="checkbox" id="South" name="south" />
+            <label for="south">South Campus</label>
+
             <br />
 
             <h6>Dorm Type</h6>
+            <input type="checkbox" id="Hall" name="hall" />
             <label for="hall">Res Hall</label>
-            <input type="checkbox" id="Hall" name="hall" /><br />
+            <br />
+            <input type="checkbox" id="College" name="college" />
             <label for="college">Res College</label>
-            <input type="checkbox" id="College" name="college" /><br />
+            <br />
 
             <!--dorm sizes-->
             <h6>Size</h6>
+            <input type="checkbox" id="verysmall" name="verysmall" />
             <label for="verysmall"> < 50 people </label>
-            <input type="checkbox" id="verysmall" name="verysmall" /><br />
+            <br />
+            <input type="checkbox" id="small" name="college" />
             <label for="small">50 - 100 people</label>
-            <input type="checkbox" id="small" name="college" /><br />
+            <br />
+            <input type="checkbox" id="medium" name="college" />
             <label for="medium">101 - 200 people</label>
-            <input type="checkbox" id="medium" name="college" /><br />
+            <br />
+            <input type="checkbox" id="large" name="college" />            
             <label for="large"> > 200 people</label>
-            <input type="checkbox" id="large" name="college" /> <br />
+            <br />
 
             <!--Room type-->
             <h6>Room Type</h6>
-            <label for="singles">Singles </label>
             <input type="checkbox" id="singles" name="singles" />
+            <label for="singles">Singles </label>
             <br />
+            <input type="checkbox" id="doubles" name="doubles" />            
             <label for="doubles">Doubles </label>
-            <input type="checkbox" id="doubles" name="doubles" />
             <br />
-            <label for="triples">Triples </label>
             <input type="checkbox" id="triples" name="triples" />
+            <label for="triples">Triples </label>
             <br />
 
             <!--misc-->
             <h6>Misc</h6>
+            <input type="checkbox" id="all_gender" name="all_gender" />
+            <label for="all_gender">all gender housing</label>
+            <br />
 
-            <label for="dining_hall">has dining hall</label>
             <input type="checkbox" id="dining_hall" name="dining_hall" />
+            <label for="dining_hall">has dining hall</label>
             <br />
-            <label for="freshman">freshman available</label>
             <input type="checkbox" id="freshman" name="freshman" />
+            <label for="freshman">freshman available</label>
             <br />
-            <label for="elevator">elevator access </label>
             <input type="checkbox" id="elevator" name="elevator" />
+            <label for="elevator">elevator access </label>
+
           </form>
         </div>
         <div id="explanation">explain filters</div>

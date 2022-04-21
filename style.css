@@ -35,9 +35,11 @@ h5 {
   font-weight: 500;
 }
 h6 {
-  font-size: 1.2em;
+  font-size: 0.9rem;
   margin: 0;
   margin-top: 3%;
+  font-weight: 600;
+  font-style: italic;
 }
 p {
   color: black;
@@ -50,12 +52,12 @@ p {
   left: 0;
   width: 100vw;
   margin: 0;
-  height: 10vh;
+  height: 9vh;
   background-color: #8f68c0;
   z-index: 100;
 }
 #content {
-  margin-top: 10vh;
+  margin-top: 9vh;
   margin-left: 10vw;
   margin-right: 10vw;
   color: white;
@@ -83,8 +85,8 @@ button:hover {
   display: grid;
   width: 80vw;
   margin-top: 0vh;
-  grid-template-columns: 20vw 35vw 20vw;
-  grid-template-rows: 50vh 15vh;
+  grid-template-columns: 25vw 30vw 22vw;
+  grid-template-rows: 65vh 30vh;
   column-gap: 2.5vh;
   row-gap: 2.5vh;
   grid-template-areas:
@@ -96,7 +98,7 @@ button:hover {
 #explanation {
   padding: 10px;
   border-radius: 5px;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 #map {
   background-color: grey;
@@ -113,6 +115,7 @@ button:hover {
   color: black;
   grid-area: c;
   font-size: 14px;
+  text-align: left;
 }
 #explanation {
   background-color: grey;
@@ -143,11 +146,14 @@ tr:hover {
 
 #filter-title {
   margin: 0;
-  padding: 2px 3px;
-  font-size: 14px;
+  padding: 3px 6px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1rem;
   background-color: #8f68c0;
   display: inline-block;
-  font-style: italic;
+  border-radius: 4px;
+  /* font-style: italic; */
   color: white;
 }
 
@@ -165,4 +171,38 @@ tr:hover {
 }
 #right {
   grid-area: y;
+}
+
+@media (max-width: 1200px){
+  .container {
+    display: grid;
+    width: 80vw;
+    margin-top: 0vh;
+    grid-template-columns: 37vw 37vw;
+    grid-template-rows: 50vh auto auto auto;
+    column-gap: 2.5vh;
+    row-gap: 2.5vh;
+    grid-template-areas:
+    "a b"
+    "c b"
+    "d d";
+  }
+}
+@media (max-width: 600px){
+  .container {
+    display: grid;
+    width: 80vw;
+    margin-top: 0vh;
+    grid-template-columns: 37vw 37vw;
+    grid-template-rows: auto auto auto auto;
+    column-gap: 2.5vh;
+    row-gap: 2.5vh;
+    grid-template-areas:
+      "c c"
+      "d d"
+      "b b";
+  }
+  #map{
+    display: none;
+  }
 }
