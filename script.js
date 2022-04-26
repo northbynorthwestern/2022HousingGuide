@@ -17,7 +17,6 @@ const dorms = [
     norris: "6",
     rock: "3",
     allgender: "yes",
-
   },
   {
     name: "Ayers Hall",
@@ -37,10 +36,9 @@ const dorms = [
     norris: "13",
     rock: "16",
     allgender: "no",
-
   },
   {
-    name: "Bobb-McCulloch Hall",    
+    name: "Bobb-McCulloch Hall",
     address: "2305 Sheridan Rd",
     size: "496",
     type: "Hall",
@@ -57,7 +55,6 @@ const dorms = [
     norris: "11",
     rock: "12",
     allgender: "no",
-
   },
   {
     name: "Chapin Hall",
@@ -77,7 +74,6 @@ const dorms = [
     norris: "10",
     rock: "6",
     allgender: "yes",
-
   },
   {
     name: "East Fairchild",
@@ -97,7 +93,6 @@ const dorms = [
     norris: "5",
     rock: "2",
     allgender: "no",
-
   },
   {
     name: "Elder Hall",
@@ -117,7 +112,6 @@ const dorms = [
     norris: "13",
     rock: "14",
     allgender: "yes",
-
   },
   {
     name: "Foster-Walker Complex",
@@ -137,7 +131,6 @@ const dorms = [
     norris: "7",
     rock: "5",
     allgender: "yes",
-
   },
   {
     name: "Goodrich House",
@@ -154,7 +147,6 @@ const dorms = [
     doubles: "yes",
     triples: "no",
     allgender: "no",
-
   },
   {
     name: "Hobart House",
@@ -174,7 +166,6 @@ const dorms = [
     norris: "7",
     rock: "4",
     allgender: "no",
-
   },
   {
     name: "Jones Hall",
@@ -194,7 +185,6 @@ const dorms = [
     norris: "7",
     rock: "5",
     allgender: "no",
-
   },
   {
     name: "Kemper Hall",
@@ -214,7 +204,6 @@ const dorms = [
     norris: "12",
     rock: "14",
     allgender: "yes",
-
   },
   {
     name: "Lindgren House",
@@ -234,7 +223,6 @@ const dorms = [
     norris: "10",
     rock: "13",
     allgender: "no",
-
   },
   {
     name: "North Mid-Quads",
@@ -254,7 +242,6 @@ const dorms = [
     norris: "9",
     rock: "5",
     allgender: "no",
-
   },
   {
     name: "Rogers House",
@@ -274,7 +261,6 @@ const dorms = [
     norris: "8",
     rock: "4",
     allgender: "no",
-
   },
   {
     name: "Sargent Hall",
@@ -294,7 +280,6 @@ const dorms = [
     norris: "10",
     rock: "11",
     allgender: "no",
-
   },
   {
     name: "Shepard Hall",
@@ -314,7 +299,6 @@ const dorms = [
     norris: "8",
     rock: "4",
     allgender: "no",
-
   },
   {
     name: "Slivka Hall",
@@ -334,7 +318,6 @@ const dorms = [
     norris: "13",
     rock: "14",
     allgender: "yes",
-
   },
   {
     name: "South Mid-Quads",
@@ -354,7 +337,6 @@ const dorms = [
     norris: "9",
     rock: "5",
     allgender: "no",
-
   },
   {
     name: "West Fairchild",
@@ -374,7 +356,6 @@ const dorms = [
     norris: "6",
     rock: "2",
     allgender: "yes",
-
   },
   {
     name: "Willard Hall",
@@ -394,7 +375,6 @@ const dorms = [
     norris: "11",
     rock: "7",
     allgender: "yes",
-
   },
   {
     name: "1838 Chicago Ave",
@@ -418,7 +398,6 @@ const dorms = [
     description: "description",
     testimonial: "testimonial",
     allgender: "no",
-
   },
   {
     name: "636 Emerson",
@@ -435,7 +414,6 @@ const dorms = [
     doubles: "yes",
     triples: "no",
     allgender: "no",
-
   },
   {
     name: "640 Emerson",
@@ -452,7 +430,6 @@ const dorms = [
     doubles: "yes",
     triples: "no",
     allgender: "no",
-
   },
   {
     name: "710 Emerson Ave",
@@ -469,7 +446,6 @@ const dorms = [
     doubles: "yes",
     triples: "no",
     allgender: "no",
-
   },
   {
     name: "1856 Orrington Ave",
@@ -486,7 +462,6 @@ const dorms = [
     doubles: "yes",
     triples: "no",
     allgender: "no",
-
   },
   {
     name: "2303 Sheridan Rd (CCS)",
@@ -506,7 +481,6 @@ const dorms = [
     norris: "12",
     rock: "12",
     allgender: "no",
-
   },
   {
     name: "2303 Sheridan Rd (GREEN House)",
@@ -526,7 +500,6 @@ const dorms = [
     norris: "12",
     rock: "12",
     allgender: "no",
-
   },
   {
     name: "2307 Sheridan Rd",
@@ -543,7 +516,6 @@ const dorms = [
     doubles: "yes",
     triples: "no",
     allgender: "no",
-
   },
   {
     name: "2347 Sheridan Rd",
@@ -560,7 +532,6 @@ const dorms = [
     doubles: "yes",
     triples: "no",
     allgender: "no",
-
   },
   {
     name: "2349 Sheridan Rd",
@@ -577,7 +548,6 @@ const dorms = [
     doubles: "yes",
     triples: "no",
     allgender: "no",
-
   },
   {
     name: "2313 Sheridan Rd",
@@ -695,6 +665,10 @@ function getCurrDormsByFilter(filterArr) {
           (filterArr.includes("doubles") && dorm.doubles === "yes") ||
           (filterArr.includes("triples") && dorm.triples === "yes");
   };
+
+  const filterDormsByGender = (filterArr, dorm) => {
+    return filterArr.includes("all_gender") ? dorm.allgender == "yes" : true;
+  };
   const filterDormsByDining = (filterArr, dorm) => {
     return filterArr.includes("dining_hall") ? dorm.dining === "yes" : true;
   };
@@ -708,6 +682,7 @@ function getCurrDormsByFilter(filterArr) {
     .filter((dorm) => filterDormsByLocation(filterArr, dorm))
     .filter((dorm) => filterDormsByType(filterArr, dorm))
     .filter((dorm) => filterDormsBySize(filterArr, dorm))
+    .filter((dorm) => filterDormsByGender(filterArr, dorm))
     .filter((dorm) => filterDormsByDining(filterArr, dorm))
     .filter((dorm) => filterDormsByFreshmen(filterArr, dorm))
     .filter((dorm) => filterDormsByElevator(filterArr, dorm))
