@@ -1,6 +1,18 @@
 body {
   font-family: sans-serif;
 }
+svg{
+  height: 7vh;
+  color: white;
+  margin-left: 1vw;
+  margin-top: 1vh;
+}
+svg:hover{
+  height: 7vh;
+  color:#a4bbf8;
+  margin-left: 1vw;
+  margin-top: 1vh;
+}
 h1 {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
@@ -19,7 +31,7 @@ h3 {
 }
 h4 {
   font-family: "Open Sans";
-  background-color: #8f68c0;
+  background-color: #7035a0; 
   color: white;
   display: inline-block;
   font-size: 0.8rem;
@@ -53,8 +65,8 @@ p {
   width: 100vw;
   margin: 0;
   height: 9vh;
-  background-color: #8f68c0;
-  z-index: 100;
+  background-color: #7035a0;
+  z-index: 5;
 }
 #content {
   margin-top: 9vh;
@@ -65,7 +77,7 @@ p {
 }
 #title {
   color: white;
-  background-color: #8f68c0;
+  background-color: #7035a0;
   display: inline-block;
   padding: 5px 10px;
   margin-bottom: 0;
@@ -73,13 +85,29 @@ p {
 button {
   font-weight: bold;
   color: white;
-  background-color: #8f68c0;
+  background-color: #7035a0;
   border: none;
   padding: 6px;
   border-radius: 7px;
 }
 button:hover {
   opacity: 0.3;
+}
+#back-button{
+  background-color: #7035a0;
+  padding: 8px;
+  border: 2px solid #7035a0;
+  color:white;
+  border-radius: 5px;
+  position: fixed;
+  top: 13vh;
+  left: 3vw;
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+#back-button:hover{
+  opacity: 0.5;
 }
 .container {
   display: grid;
@@ -94,11 +122,14 @@ button:hover {
     "d d d";
 }
 #map,
-#filters,
-#explanation {
+#filters{
   padding: 10px;
   border-radius: 5px;
   /* overflow: scroll; */
+}
+#explanation {
+  padding: 0;
+  border-radius: 5px;
 }
 #map {
   background-color: grey;
@@ -116,6 +147,12 @@ button:hover {
   grid-area: c;
   font-size: 14px;
   text-align: left;
+  overflow-y: visible;
+}
+#filters form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 #explanation {
   background-color: grey;
@@ -135,6 +172,12 @@ th {
   color: black;
   font-family: sans-serif;
 }
+th{
+  background-color:#7035a0;
+  color: white;
+  position: sticky;
+  top:0;
+}
 
 tr:nth-child(even) {
   background-color: rgb(114, 66, 175, 25%);
@@ -150,7 +193,7 @@ tr:hover {
   font-weight: bold;
   font-style: italic;
   font-size: 1rem;
-  background-color: #8f68c0;
+  background-color: #7035a0;
   display: inline-block;
   border-radius: 4px;
   /* font-style: italic; */
@@ -173,7 +216,28 @@ tr:hover {
   grid-area: y;
 }
 
+.filter-container {
+  display: grid;
+  padding: 0;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-areas:
+    "a b c d";
+}
+
 @media (max-width: 1200px){
+  #back-button{
+    background-color: #7035a0;
+    color: white;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: fixed;
+    top: 2vh;
+    left: 85vw;
+    margin: 0;
+    z-index: 10;
+    width: fit-content;
+  }
   .container {
     display: grid;
     width: 80vw;
@@ -189,6 +253,10 @@ tr:hover {
   }
 }
 @media (max-width: 600px){
+  #back-button{
+    top: 2vh;
+    left: 80vw;
+  }
   .container {
     display: grid;
     width: 80vw;

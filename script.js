@@ -1,6 +1,7 @@
 const dorms = [
   {
     name: "Allison Hall",
+    address: "1820 Chicago Ave",
     size: "363",
     type: "Hall",
     location: "South",
@@ -12,12 +13,15 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "yes",
-    tech: "11",
+    tech: "11 mi / 22 km",
     norris: "6",
     rock: "3",
+    allgender: "yes",
+
   },
   {
     name: "Ayers Hall",
+    address: "2324 Campus Dr",
     size: "170",
     type: "College",
     location: "North",
@@ -32,9 +36,12 @@ const dorms = [
     tech: "7",
     norris: "13",
     rock: "16",
+    allgender: "no",
+
   },
   {
-    name: "Bobb-McCulloch Hall",
+    name: "Bobb-McCulloch Hall",    
+    address: "2305 Sheridan Rd",
     size: "496",
     type: "Hall",
     location: "North",
@@ -49,9 +56,12 @@ const dorms = [
     tech: "3",
     norris: "11",
     rock: "12",
+    allgender: "no",
+
   },
   {
     name: "Chapin Hall",
+    address: "726 University Pl",
     size: "72",
     type: "College",
     location: "South",
@@ -66,9 +76,12 @@ const dorms = [
     tech: "13",
     norris: "10",
     rock: "6",
+    allgender: "yes",
+
   },
   {
     name: "East Fairchild",
+    address: "1855 Sheridan Rd",
     size: "109",
     type: "College",
     location: "South",
@@ -83,9 +96,12 @@ const dorms = [
     tech: "13",
     norris: "5",
     rock: "2",
+    allgender: "no",
+
   },
   {
     name: "Elder Hall",
+    address: "2400 Sheridan Rd",
     size: "345",
     type: "Hall",
     location: "North",
@@ -100,9 +116,12 @@ const dorms = [
     tech: "6",
     norris: "13",
     rock: "14",
+    allgender: "yes",
+
   },
   {
     name: "Foster-Walker Complex",
+    address: "1927 Orrington Avenue",
     size: "582",
     type: "Hall",
     location: "South",
@@ -117,9 +136,12 @@ const dorms = [
     tech: "9",
     norris: "7",
     rock: "5",
+    allgender: "yes",
+
   },
   {
     name: "Goodrich House",
+    address: "2321 Sheridan Rd",
     size: "<100",
     type: "Hall",
     location: "North",
@@ -131,9 +153,12 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    allgender: "no",
+
   },
   {
     name: "Hobart House",
+    address: "630 Emerson St",
     size: "50",
     type: "College",
     location: "South",
@@ -148,9 +173,12 @@ const dorms = [
     tech: "11",
     norris: "7",
     rock: "4",
+    allgender: "no",
+
   },
   {
     name: "Jones Hall",
+    address: "1820 Sheridan Rd",
     size: "121",
     type: "Hall",
     location: "South",
@@ -165,9 +193,12 @@ const dorms = [
     tech: "15",
     norris: "7",
     rock: "5",
+    allgender: "no",
+
   },
   {
     name: "Kemper Hall",
+    address: "2420 Campus Dr",
     size: "165",
     type: "Hall",
     location: "North",
@@ -182,9 +213,12 @@ const dorms = [
     tech: "7",
     norris: "12",
     rock: "14",
+    allgender: "yes",
+
   },
   {
     name: "Lindgren House",
+    address: "2309 Sheridan Rd",
     size: "37",
     type: "Hall",
     location: "North",
@@ -199,9 +233,12 @@ const dorms = [
     tech: "3",
     norris: "10",
     rock: "13",
+    allgender: "no",
+
   },
   {
     name: "North Mid-Quads",
+    address: "650 Emerson St",
     size: "88",
     type: "College",
     location: "South",
@@ -216,9 +253,12 @@ const dorms = [
     tech: "12",
     norris: "9",
     rock: "5",
+    allgender: "no",
+
   },
   {
     name: "Rogers House",
+    address: "647 University Pl",
     size: "49",
     type: "Hall",
     location: "South",
@@ -233,9 +273,12 @@ const dorms = [
     tech: "12",
     norris: "8",
     rock: "4",
+    allgender: "no",
+
   },
   {
     name: "Sargent Hall",
+    address: "2245 Sheridan Rd",
     size: "157",
     type: "Hall",
     location: "North",
@@ -250,9 +293,12 @@ const dorms = [
     tech: "2",
     norris: "10",
     rock: "11",
+    allgender: "no",
+
   },
   {
     name: "Shepard Hall",
+    address: "626 University Pl",
     size: "153",
     type: "Hall",
     location: "South",
@@ -267,9 +313,12 @@ const dorms = [
     tech: "12",
     norris: "8",
     rock: "4",
+    allgender: "no",
+
   },
   {
     name: "Slivka Hall",
+    address: " 2332 Campus Dr",
     size: "140",
     type: "College",
     location: "North",
@@ -284,9 +333,12 @@ const dorms = [
     tech: "6",
     norris: "13",
     rock: "14",
+    allgender: "yes",
+
   },
   {
     name: "South Mid-Quads",
+    address: "655 University Pl",
     size: "88",
     type: "College",
     location: "South",
@@ -301,9 +353,12 @@ const dorms = [
     tech: "13",
     norris: "9",
     rock: "5",
+    allgender: "no",
+
   },
   {
     name: "West Fairchild",
+    address: "1861 Sheridan Rd",
     size: "106",
     type: "College",
     location: "South",
@@ -318,9 +373,12 @@ const dorms = [
     tech: "12",
     norris: "6",
     rock: "2",
+    allgender: "yes",
+
   },
   {
     name: "Willard Hall",
+    address: "1865 Sherman Ave",
     size: "261",
     type: "College",
     location: "South",
@@ -335,9 +393,11 @@ const dorms = [
     tech: "14",
     norris: "11",
     rock: "7",
+    allgender: "yes",
+
   },
   {
-    name: "1838 Chicago Ave.",
+    name: "1838 Chicago Ave",
     size: "120",
     type: "Hall",
     location: "South",
@@ -349,7 +409,7 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
-    address: "1838 Chicago Ave.",
+    address: "1838 Chicago Ave",
     tech: "12",
     norris: "6",
     rock: "2",
@@ -357,9 +417,12 @@ const dorms = [
     singlePrice: "",
     description: "description",
     testimonial: "testimonial",
+    allgender: "no",
+
   },
   {
     name: "636 Emerson",
+    address: "636 Emerson",
     size: "<100",
     type: "Hall",
     location: "South",
@@ -371,9 +434,12 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    allgender: "no",
+
   },
   {
     name: "640 Emerson",
+    address: "640 Emerson",
     size: "<100",
     type: "Hall",
     location: "South",
@@ -385,9 +451,12 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    allgender: "no",
+
   },
   {
     name: "710 Emerson Ave",
+    address: "710 Emerson Ave",
     size: "<100",
     type: "Hall",
     location: "South",
@@ -399,9 +468,12 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    allgender: "no",
+
   },
   {
-    name: "1856 Orrington Ave.",
+    name: "1856 Orrington Ave",
+    address: "1856 Orrington Ave",
     size: "<100",
     type: "Hall",
     location: "South",
@@ -413,9 +485,12 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    allgender: "no",
+
   },
   {
-    name: "2303 Sheridan Rd. (CCS)",
+    name: "2303 Sheridan Rd (CCS)",
+    address: "2303 Sheridan Rd",
     size: "40",
     type: "College",
     location: "North",
@@ -430,9 +505,12 @@ const dorms = [
     tech: "3",
     norris: "12",
     rock: "12",
+    allgender: "no",
+
   },
   {
-    name: "2303 Sheridan Rd. (GREEN House)",
+    name: "2303 Sheridan Rd (GREEN House)",
+    address: "2303 Sheridan Rd",
     size: "40",
     type: "Hall",
     location: "North",
@@ -447,9 +525,12 @@ const dorms = [
     tech: "3",
     norris: "12",
     rock: "12",
+    allgender: "no",
+
   },
   {
-    name: "2307 Sheridan Rd.",
+    name: "2307 Sheridan Rd",
+    address: "2307 Sheridan Rd",
     size: "<100",
     type: "Hall",
     location: "North",
@@ -461,9 +542,12 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    allgender: "no",
+
   },
   {
-    name: "2347 Sheridan Rd.",
+    name: "2347 Sheridan Rd",
+    address: "2347 Sheridan Rd",
     size: "<100",
     type: "Hall",
     location: "North",
@@ -475,9 +559,12 @@ const dorms = [
     singles: "yes",
     doubles: "yes",
     triples: "no",
+    allgender: "no",
+
   },
   {
-    name: "2349 Sheridan Rd.",
+    name: "2349 Sheridan Rd",
+    address: "2349 Sheridan Rd",
     size: "<100",
     type: "Hall",
     location: "North",
@@ -489,23 +576,27 @@ const dorms = [
     singles: "no",
     doubles: "yes",
     triples: "no",
+    allgender: "no",
+
   },
   {
-    name: "560 Lincoln St.",
-    size: "422",
+    name: "2313 Sheridan Rd",
+    address: "2313 Sheridan Rd",
+    size: "36",
     type: "Hall",
     location: "North",
     dining: "no",
     firstyear: "yes",
-    ac: "yes",
-    suite: "yes",
-    elevator: "yes",
+    ac: "no",
+    suite: "no",
+    elevator: "no",
     singles: "yes",
     doubles: "yes",
     triples: "no",
     tech: "8",
     norris: "14",
     rock: "16",
+    allgender: "no",
   },
 ];
 
@@ -628,7 +719,7 @@ function getCurrDormsByFilter(filterArr) {
   );
 
   for (let i = 0; i < dormSelection.length; i++) {
-    dormSelection[i].style.backgroundColor = "lightGreen";
+    dormSelection[i].style.backgroundColor = "#43e674";
   }
 }
 
@@ -636,6 +727,8 @@ const makePage = (i) => {
   let content = document.querySelector("#content");
   content.innerHTML = "";
   content.innerHTML = `<h1 id="title">${dorms[i].name}</h1>
+  <input id="back-button" type="button" value="< back" onClick="document.location.reload(true)">
+
   <div class="dorm-container">
     <div id="left">
       <h2>${dorms[i].address}</h2>
@@ -643,9 +736,9 @@ const makePage = (i) => {
       <h4>Residential ${dorms[i].type}</h4>
       <div id="map" style="height: 30vh; margin-top: 20px;"></div>
       <h3>VITAL STATS</h3>
-      <h5>${dorms[i].norris} Minute Walk To Norris</h5>
-      <h5>${dorms[i].rock} Minute Walk To Rock</h5>
-      <h5>${dorms[i].tech} Minute Walk To Tech</h5>
+      <h5>${dorms[i].norris} walk to Norris</h5>
+      <h5>${dorms[i].rock} walk to Rock</h5>
+      <h5>${dorms[i].tech} walk to Tech</h5>
       <h5>Air Conditioning: ${dorms[i].ac}</h5>
       <h5>${dorms[i].doublePrice}</h5>
       <h5>${dorms[i].singlePrice}</h5>

@@ -27,11 +27,18 @@
     <title>Housing Guide 2022</title>
   </head>
   <body>
-    <div id="header"></div>
+    <div id="header">
+      <a class="homepage-link" href="https://northbynorthwestern.com/">
+      <svg version="1.0" xmlns="http://www.w3.org/2000/svg" class="nbn-logo-nav" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
+        <g class="svg-path nbn-path" transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
+          <path d="M4940 9953 c-891 -34 -1755 -309 -2480 -788 -714 -472 -1315 -1155        -1690 -1920 -256 -524 -403 -1040 -472 -1665 -20 -181 -17 -778 5 -965 138        -1165 628 -2168 1439 -2950 979 -943 2278 -1447 3551 -1377 361 20 653 64        1008 153 1403 350 2469 1207 3139 2524 267 524 425 1046 497 1635 25 207 25        772 0 985 -156 1312 -712 2376 -1662 3179 -147 125 -295 240 -300 234 -2 -2        155 -307 350 -678 195 -371 355 -678 355 -682 0 -5 -128 -8 -285 -8 l-285 0 0        -2690 0 -2690 -472 2 -471 3 -835 1877 c-459 1033 -838 1875 -843 1872 -5 -3        -9 -795 -9 -1885 l0 -1879 -490 0 -490 0 0 2695 0 2695 676 0 676 0 25 -27        c14 -16 49 -84 80 -153 296 -676 1177 -2651 1184 -2656 5 -3 9 582 9 1415 l0        1421 -255 0 c-140 0 -255 3 -255 6 0 3 194 374 431 825 237 451 433 828 436        838 4 15 -14 29 -84 69 -610 343 -1327 544 -2084 582 -186 9 -229 10 -399 3z"></path>
+        </g>
+      </svg>
+    </a></div>
     <div id="content">
-      <h1 id="title">NBN HOUSING GUIDE 2022</h1>
+      <h1 id="title">NBN HOUSING GUIDE</h1>
       <p style="color: black; display: inline-block; padding-top: 0">
-        Choosing a Dorm can be difficult. Welcome North By Northwestern's
+        Choosing a 2 can be difficult. Welcome North By Northwestern's
         Housing Guide, the best and only catalog on every dorm on campus.
       </p>
       <br />
@@ -41,24 +48,27 @@
         <div id="filters">
           <h3 id="filter-title">Filters</h3>
           <form>
+            <div>
             <h6>Location</h6>
             <input type="checkbox" id="North" name="north" />
-            <label for="north">North Campus</label>
+            <label for="North">North Campus</label>
             <br />
             <input type="checkbox" id="South" name="south" />
-            <label for="south">South Campus</label>
-
+            <label for="South">South Campus</label>
             <br />
-
+            </div>
+            <div>
             <h6>Dorm Type</h6>
             <input type="checkbox" id="Hall" name="hall" />
-            <label for="hall">Res Hall</label>
+            <label for="Hall">Res Hall</label>
             <br />
             <input type="checkbox" id="College" name="college" />
-            <label for="college">Res College</label>
+            <label for="College">Res College</label>
             <br />
+            </div>
 
             <!--dorm sizes-->
+            <div>
             <h6>Size</h6>
             <input type="checkbox" id="verysmall" name="verysmall" />
             <label for="verysmall"> < 50 people </label>
@@ -72,8 +82,10 @@
             <input type="checkbox" id="large" name="college" />            
             <label for="large"> > 200 people</label>
             <br />
+            </div>
 
             <!--Room type-->
+            <div>
             <h6>Room Type</h6>
             <input type="checkbox" id="singles" name="singles" />
             <label for="singles">Singles </label>
@@ -84,25 +96,33 @@
             <input type="checkbox" id="triples" name="triples" />
             <label for="triples">Triples </label>
             <br />
-
+            </div>
             <!--misc-->
+            <div>
             <h6>Misc</h6>
             <input type="checkbox" id="all_gender" name="all_gender" />
-            <label for="all_gender">all gender housing</label>
+            <label for="all_gender">All gender housing</label>
             <br />
-
             <input type="checkbox" id="dining_hall" name="dining_hall" />
-            <label for="dining_hall">has dining hall</label>
+            <label for="dining_hall">Has dining hall</label>
             <br />
             <input type="checkbox" id="freshman" name="freshman" />
-            <label for="freshman">freshman available</label>
+            <label for="freshman">Open to first years</label>
             <br />
             <input type="checkbox" id="elevator" name="elevator" />
-            <label for="elevator">elevator access </label>
-
+            <label for="elevator">Elevator access </label>
+            </div>
           </form>
         </div>
-        <div id="explanation">explain filters</div>
+        <div id="explanation" class="filter-container">
+          <h4>All-Gender Housing</h4>
+          <h4>ADA Accessibility</h4>
+          <h4>North vs South Campus</h4>
+          <h4>Hall vs. College</h4>
+
+
+
+        </div>
       </div>
     </div>
   </body>
