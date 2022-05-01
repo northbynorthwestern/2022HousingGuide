@@ -964,6 +964,8 @@ const currentCaption = document.querySelector('#featured_caption');
 
 
 const makePage = (i) => {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   images = dorms[i].images;
   image_length = images.length;
   
