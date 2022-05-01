@@ -174,7 +174,7 @@ padding: 8px;
 #explanation td{
   width: 20vw;
   vertical-align: top;
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   padding: 10px;
 
 
@@ -370,7 +370,11 @@ mark{
   padding-left: 8px;
 
 }
-.table-small{visibility: hidden;}
+.table-big{display: block;}
+
+.table-small{display: none;}
+.table-very-small{
+  display: none;  }
 
 /* Media Queries */
 /* @media (max-width: 1200px) {
@@ -491,11 +495,10 @@ mark{
     padding-left: 8px;
   
   } 
-  .table-small{
-    visibility: visible;  }
-  .table-big{visibility: hidden;}
-
-  
+  .table-small{display: block;}
+  .table-big{display: none;}
+  #explanation td{
+    width: 40vw;}
 }
 @media (max-width: 600px){
   #back-button{
@@ -522,4 +525,11 @@ mark{
   #map{
     display: none;
   }
+  .table-small{
+    display: none;  }
+  .table-very-small{
+      display: block;  }
+  #explanation td{
+    width: 80vw;
+    }
 }
