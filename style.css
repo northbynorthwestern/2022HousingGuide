@@ -415,7 +415,8 @@ mark{
     border-radius: 5px;
     position: fixed;
     top: 2vh;
-    left: 85vw;
+    left: 100vw;
+    transform: translateX(-150%);
     margin: 0;
     z-index: 10;
     width: fit-content;
@@ -503,7 +504,6 @@ mark{
 @media (max-width: 600px){
   #back-button{
     top: 2vh;
-    left: 80vw;
   }
   #features {
     max-width: 400px;
