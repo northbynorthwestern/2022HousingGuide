@@ -504,6 +504,7 @@ mark{
 @media (max-width: 600px){
   #back-button{
     top: 2vh;
+    transform: translateX(-175%);
   }
   #features {
     max-width: 400px;
