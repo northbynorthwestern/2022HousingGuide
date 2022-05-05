@@ -212,7 +212,7 @@ tr:hover {
   margin: 0;
   padding: 3px 6px;
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
   font-size: 1rem;
   background-color: #7035a0;
   display: inline-block;
@@ -326,16 +326,17 @@ mark{
 #featured_image {
   margin: auto;
   width: 50vw;
-  height: 37.5vw;
+  height: 100%;
   background-size: cover;
   background-position: center;
   cursor: pointer;
 }
 
-#featured_caption{
-  margin: auto;
+#featured_caption p{
+  margin: 7px 0;
   width: 50vw;
-
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 .next, .prev, .close {
