@@ -35,7 +35,14 @@ const dorms = [
     "I like how it's right on top of a dining hall and close to all my classes on South Campus. Even if my classes are at Bienen or Swift Hall, they are still very walkable from Allison. I wish my room could be bigger and closer to the laundry room and the elevator."
     <br>- Class of 2024
     `,
-    images: [ {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_8400.JPEG", caption: "Double Room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/lincoln1.jpg", caption: "Double Room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/lincoln2.jpg", caption: "Suite Common Area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/lincoln3.jpg", caption: "Suite Bathroom"}, {img: "https://northbynorthwestern.com/content/images/2022/05/lincoln4.jpg", caption: "Suite Bathroom"},],
+    images: [ 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3333.jpg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3320.png", caption: "Laundry room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3321.png", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3322.png", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3324.png", caption: "Study room"},
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3319.png", caption: "Common room"},],
+
     tech: "0.7 mi / 1.13 km",
     norris: "0.4 mi / 0.64 km",
     rock: "0.2 mi / 0.32 km",
@@ -75,7 +82,13 @@ const dorms = [
     "I would say that Ayers is very friendly and calm. I like that we have very spacious rooms, which is something that is rare for North Campus. It is also nice that we have basic amenities like an elevator and air conditioning. One complaint I have is that laundry can be very frustrating, and the walls are a bit thin, but that's no problem if you invest in some good earplugs for sleepy time. I would not want to live anywhere else. I will admit that I have fallen in love with Ayers despite its minor flaws."
     <br>- Class of 2025
     `,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/ayers5.jpg", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/ayers6.jpg", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/ayers2.jpg", caption: "Bathroom"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/ayers1.jpg", caption: "Bathroom"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/ayers3.jpg", caption: "Common room"},
+    ],
 
     allgender: "no",
     latitude: 42.0604281,
@@ -111,7 +124,13 @@ const dorms = [
     "It's loud, social but in a cliquey way, very much for the stereotypical north person. I like the location near dining halls, the library and SPAC, dislike the people. I would rather live somewhere else." 
     <br>- Class of 2025
     `,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/Double---Teresa-Nowakowski.jpg", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/67245400514__A0F51EF6-54B4-48F7-8640-5DD1644D4791.jpeg", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/67245406282__D11FACBF-F54C-4B41-8509-659C9BD6F087.jpeg", caption: "Bathroom"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/67245407460__01731FB1-861D-43A6-894E-16F85CCBF05C.jpeg", caption: "Bathroom"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/67245408805__C72BB6C1-802F-4356-866D-CA5C40D1C69C.jpeg", caption: "Bathroom"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/Laundry_Kitchen---Teresa-Nowakowski.jpg", caption: "Laundry room"},],
     allgender: "no",
     latitude: 42.0596659,
     longitude: -87.6757728,
@@ -146,7 +165,17 @@ const dorms = [
     "I would maybe describe Chapin as a little bit nerdy. It's an eclectic mix of students: musical-minded, writers, STEM majors, you name it. I love the fancy plaster ceilings, the plentitude of sofas in the lounges, the spacious rooms, the clean bathrooms and all the free-food events. I don't like the fact that the first floor washer and dryer have been broken for several quarters now and the fact that people don't know how to keep the kitchen looking decent."
     <br>- Class of 2025
     `,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6025.jpg", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6027.jpg", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6028.jpg", caption: "Bathroom"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6029.jpg", caption: "Kitchen"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6030.jpg", caption: "Study room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6031.jpg", caption: "Study room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6035.jpg", caption: "Laundry room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6024.jpg", caption: "Entryway"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6032.jpg", caption: "Staircase"},
+    ],
 
     allgender: "yes",
     latitude: 42.0510376,
@@ -179,7 +208,13 @@ const dorms = [
     <br><br>
     "I would say the vibe of CRC is quirky core because there are a lot of little random things, like the bright red bathroom stalls and the movie theater off the main lounge that make it super unique. The small rooms are definitely not it, but there are a lot of welcome surprises within CRC that I didn't know when I was choosing housing, and they make it worth it!"
     `,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_7065.JPG", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0244.jpg", caption: "Lounge"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0247.jpg", caption: "Bathroom"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0250.JPG", caption: "Single room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0252.JPG", caption: "Single room"}, 
+    ],
     allgender: "no",
     latitude: 42.0508277,
     longitude: -87.6751223,
@@ -222,12 +257,25 @@ const dorms = [
     <br><br>
     "Elder is pretty fun, and it's super easy to make friends here. The bathrooms suck though, and the furniture is dark wood, so it sometimes brings the vibe/light of the room down. If I could do it again I would get a suite just for the private bathroom."
     <br>- Class of 2025
-    
-    
-    
-    
     `,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/AD2FD0E7-810F-4A42-880C-3B53367588F3.jpeg", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/elder-lounge.jpeg", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/elder-kitchen.jpeg", caption: "Common room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/elder-ground-floor--lounge.jpeg", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/elder-floor-lounge.jpeg", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/elder-floor-kitchen.jpeg", caption: "Kitchen"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/elder-exterior--5-.jpeg", caption: "Exterior"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/elder-exterior--3-.jpeg", caption: "Exterior"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/elder-exterior--2-.jpeg", caption: "Exterior"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/elder-dining-hall.jpeg", caption: "Dining hall"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/elder-dining-hall-3.jpeg", caption: "Dining hall"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/elder-bathroom--3-.jpeg", caption: "Bathroom"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/elder-bathroom--2-.jpeg", caption: "Bathroom"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/C3FBB527-C7A6-4C67-BC55-18243947460F.jpeg", caption: "Bathroom"},
+
+
+    ],
 
     allgender: "yes",
     latitude: 42.0611101,
@@ -266,7 +314,16 @@ const dorms = [
     "Honestly, I was a bit hesitant when I first moved in because it's just a dorm full of singles, and everyone called it the prison dorm or the quarantine dorms, but after moving in I realized that my floor has a cute little community. My least favorite thing is how thin the walls are, because I'm kind of loud, and I feel bad especially because of my loud friends. I love that the dining hall and package center are right downstairs. It's kind of in the middle of campus, so it's not too far from either end, and it's closer to downtown when I have to do things there. My favorite thing is having a single dorm that's pretty cute. We have brick walls and windows that don't have bars on them, which is pretty cool."
     <br> - Class of 2025
     `,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0488.jpg", caption: "Single room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0486.jpg", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0487.jpg", caption: "Hall"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0491.jpg", caption: "Laundry room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0492.jpg", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0493.jpg", caption: "Common room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0494.jpg", caption: "Plex"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0485.jpg", caption: "Common room"}, 
+    ],
 
     allgender: "yes",
     latitude: 42.0529164,
@@ -294,7 +351,16 @@ const dorms = [
     description: "",
     testimonial: `"It's pretty calm and quiet. I like that it's peaceful, and the people are nice. It would be nice if there were more bonding, though. It's not very social. I can't really hear parties or things like that going on around here. The walk south can be tedious."
     <br>- Class of 2024    `,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6050.jpg", caption: "Kitchen"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6052.jpg", caption: "Kitchen"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6051.jpg", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6053.jpg", caption: "Common room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6054.jpg", caption: "Hall"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6055.jpg", caption: "Accessible Lift"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6056.jpg", caption: "Laundry room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6049.jpg", caption: "Common room"}, 
+ ],
 
     allgender: "no",
     latitude: 42.0599659,
@@ -330,7 +396,21 @@ const dorms = [
     "The vibe is cottagecore or cozy and close-knit, friendly. It's an older building, and you can tell, but it also offers a lot of charm in the architecture and stuff! The laundry is in the basement, and laundry maintenance is not great, and the carpeting should be replaced, but there are so many spaces to be social and have guests. There's a general con of community living in terms of kitchens and bathrooms, but it's only slightly better in suite-style living. A smaller dorm is less daunting because it's not like total strangers in the bathroom. If I were to select dorms again maybe I would want something closer to my classes, but even then I would be a non-res at Hobart because the community is so nice and welcoming."
     <br>- Class of 2024
     `,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_8787---Maria-Caamano-Garcia.jpg", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_7043.JPEG", caption: "Triple room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_7003.JPEG", caption: "Common room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_7005.JPEG", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_7011.JPEG", caption: "Laundry room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_7017.JPEG", caption: "Kitchen"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_7022.JPEG", caption: "Gym"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_8710-2---Maria-Caamano-Garcia.jpg", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_8713-2---Maria-Caamano-Garcia.jpg", caption: "Kitchen"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_8715-2---Maria-Caamano-Garcia.jpg", caption: "Bathroom"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_8716-2---Maria-Caamano-Garcia.jpg", caption: "Bathroom"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_8717-2---Maria-Caamano-Garcia.jpg", caption: "Bathroom"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_6998-1.JPEG", caption: "Common room"},
+    ],
 
     allgender: "no",
     latitude: 42.0517682,
@@ -356,8 +436,21 @@ const dorms = [
     norris: "0.4 mi / 0.64 km",
     rock: "0.2 mi / 0.32 km",
     description: "",
-    testimonial: "",
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    testimonial: `
+    "The Jones community is great. The people are so nice and easy to get to know. The rooms are small, but there are two lounges down every hall, which are very comfortable. The location of Jones is pretty inconvenient because it's so far away from everything. Additionally, the keys are so annoying and the building is just … old. Most people currently living in Jones did not rank Jones, including me. I would for sure live somewhere else, but I am thankful for the first-year experience living in Jones has provided me."
+    <br> - Class of 2025
+    `,
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2643-Medium.png", caption: "Double room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2642-Medium.png", caption: "Double room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2644-Medium.png", caption: "Lounge"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2645-Medium.png", caption: "Bathroom"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2646-Medium.png", caption: "Kitchenette"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2649-Medium.png", caption: "Dance studio"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2650-Medium.png", caption: "Practice room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2651-Medium.png", caption: "Common room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2652-Medium.png", caption: "Common room"},
+    ],
 
     allgender: "no",
     latitude: 42.0493805,
@@ -383,8 +476,26 @@ const dorms = [
     norris: "0.6 mi / 0.97 km",
     rock: "0.7 mi / 1.13 km",
     description: "",
-    testimonial: "",
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    testimonial: `
+    "I like living in Kemper because everyone is very friendly, and I really like my suitemates."
+    <br><br>
+    "Kemper is great because we have our own bathroom!"
+    <br><br>
+    "I love living in Kemper because it's big, and we have a common room."
+    <br><br>
+    "Kemper is a chill place to live because you're able to hang out with friends in the suite living rooms. If you're lucky enough to have kitchens in your suite, you can also make tacos to your heart's content."
+`,
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/178231628_482403483174902_2108516350011077383_n---Teresa-Nowakowski.jpg", caption: "Suite common area"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/179034497_470835274135404_7419610441468611248_n---Teresa-Nowakowski.jpg", caption: "Suite bathroom"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/179133858_292579582370985_7610590012023605082_n---Teresa-Nowakowski.jpg", caption: "Kitchen"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/179321371_372737457321298_5137992091783211306_n---Teresa-Nowakowski.jpg", caption: "Suite common"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/179551841_166884845233877_2189626847327407486_n---Teresa-Nowakowski.jpg", caption: "Single room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/Screen-Shot-2022-03-06-at-10.11.36-AM.png", caption: "Suite common area"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/Screen-Shot-2022-03-06-at-10.12.13-AM.png", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/Screen-Shot-2022-03-06-at-10.10.59-AM.png", caption: "Dorm common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/Screen-Shot-2022-03-06-at-10.11.11-AM.png", caption: "Dorm common room"},
+    ],
 
     allgender: "yes",
     latitude: 42.061023,
@@ -410,8 +521,28 @@ const dorms = [
     norris: "0.6 mi / 0.97 km",
     rock: "0.6 mi / 0.97 km",
     description: "",
-    testimonial: "",
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    testimonial: `
+    "It's pretty quiet, but everyone seems friendly and willing to talk about their experiences! I like the location of it (near Elder, Sarge, Tech, and SPAC), but it's a bit small for my liking. I would want to live in 2303 Sheridan, the GREEN House dorm. It is sustainability-themed and is super engaging!"
+    <br>- Class of 2024
+    <br><br>
+    "It's like a post-apocalyptic frat house. Cons: gross bathrooms, thin walls (you can hear your neighbors' alarms), a dingy basement, tiny rooms, zero social life, no amenities in the lounge, only has two laundry machines. Pros: occasional basement parties." 
+    <br>- Class of 2025
+  `,
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/part0.JPG", caption: "Single dorm"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/part0-1-.JPG", caption: "Single dorm"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/part0-2-.JPG", caption: "Single dorm"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6072.jpg", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6081.jpg", caption: "Hall"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6080.jpg", caption: "Basement"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6079.jpg", caption: "Laundry room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6078.jpg", caption: "Kitchen"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6077.jpg", caption: "Common room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6076.jpg", caption: "Common room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6074.jpg", caption: "Common room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6073.jpg", caption: "Common room"},
+
+    ],
 
     allgender: "no",
     latitude: 42.059585,
@@ -453,7 +584,17 @@ const dorms = [
     "It's alright. It is not very social, but it has really nice amenities, and the rooms are large. The bathrooms, kitchen and lounges are nice. I like the sorority quad, and it can get really pretty outside."
     <br>- Class of 2025
     `,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-5562.jpg", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_6266-Medium.png", caption: "Single room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_6267-Medium.png", caption: "Single room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_6257-Medium.png", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_6264-Medium.png", caption: "Study room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_6261-Medium.png", caption: "Common room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_6260-Medium.png", caption: "Kitchen"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_6259-Medium.png", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_6258-Medium.png", caption: "Common room"},
+    ],
 
     allgender: "no",
     latitude: 42.0518342,
@@ -486,7 +627,14 @@ const dorms = [
     "It's not the most modern dorm, but it's nice and old-feeling in a cozy, vintage way. We have some warm, exposed wood in our room that I personally love. I also like how small it is. I know most of the people on my floor, and it feels more homey than some of the other dorms I've been in. I like the non-carpeted floors, the abundance of counter space in the bathrooms and the location! I don't love the shared laundry and kitchen space (I would definitely prefer a separate kitchen with natural lighting), the occasional bug problems and the lack of air conditioning."
     <br> - Class of 2025
     `,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/image12.jpeg", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/image9.jpeg", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/image14.jpeg", caption: "Common room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/image15.jpeg", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/image13.jpeg", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/image16.jpeg", caption: "laundry room"},
+    ],
 
     allgender: "no",
     latitude: 42.0514227,
@@ -528,7 +676,19 @@ const dorms = [
     "Part of the unique Sarge experience is taking a shower and still not feeling clean because nothing about Sarge ever really feels clean. It can be homey and cozy, but grimy and gross at the same time."
     <br>- Class of 2024
     `,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/Facetune_14-02-2022-19-13-50.jpg", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/Facetune_14-02-2022-19-15-23.jpg", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_7003.JPG", caption: "Laundry room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_7005.JPG", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_7006.JPG", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_7007.JPG", caption: "Common room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_7008.JPG", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_7010.JPG", caption: "Kitchenette"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/B0614212-F116-4D35-AEED-698A838C706C_1_102_o.jpeg", caption: "Bathroom"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/C52F06CE-5DBE-4D3D-9B92-FA65CC10DDE5_1_102_o.jpeg", caption: "Bathroom"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/BBB2143E-0CDE-448F-8143-F43554D6FBDE_1_102_o.jpeg", caption: "Bathroom"}, 
+    ],
 
     allgender: "no",
     latitude: 42.0587738,
@@ -569,7 +729,22 @@ const dorms = [
     "Everything is pretty clean, but it doesn't feel super social. People don't really hang out in the common areas in a casual way, but the people are nice. I like the location of Shepard and the bathrooms for sure. The basement is also super nice to have because there are a lot of nice facilities and study spaces down there. I don't like that it's a little antisocial and there isn't an elevator there, but honestly you get used to having to go up the stairs - coming from someone who lived on the fourth floor. It's definitely a great place to live - especially if South Campus is your vibe."
     <br> - Class of 2025
     `,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/F14DC80D-9942-4A34-9776-0F4A8FB2D8BB---Jimmy-He.jpeg", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_1630.JPG", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_1632.JPG", caption: "Double room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_5241-Medium.png", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_5244-Medium.png", caption: "Bathroom"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_5246-Medium.png", caption: "Bathroom"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_5247-Medium.png", caption: "Bathroom"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_1495.JPG", caption: "Kitchen"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_1496.JPG", caption: "Kitchen"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_1497.JPG", caption: "Basement/common space"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_1499.JPG", caption: "Basement classroom"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_1502.JPG", caption: "Common space"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_1503.JPG", caption: "Common space"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_1505.JPG", caption: "Common space"}, 
+    ],
 
     allgender: "no",
     latitude: 42.0508464,
@@ -608,7 +783,15 @@ const dorms = [
     "Slivka has a very distinct culture, and your enjoyment of it will really depend on how well you gel with it. Gaming, anime, tabletop gaming and general nerd culture was embraced there. There was almost always someone playing Smash or Guitar Hero in the rec lounge. Facilities-wise I have no complaints, but Slivka is pricey. One cool perk is that it has a music practice room in the basement. Overall I'd highly recommend living there since I've made some of my best friends living in Slivka."
     <br> - Class of 2022
     `,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/Single---Anonymous--2-.jpeg", caption: "Single room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/Suite-Lounge---Will-He.jpg", caption: "Common Room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/Laundry-room---Elijah-Esparza.jpeg", caption: "Laundry room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/Hallway-Kitchen--2-.jpg", caption: "Kitchenette"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/Hallway-in-Basement--1-.JPG", caption: "Hall"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/Bathroom--2-.jpg", caption: "Bathroom"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/2nd-Floor-Lounge.jpg", caption: "2nd Floor Lounge"},
+    ],
 
     allgender: "yes",
     latitude: 42.0604994,
@@ -649,7 +832,15 @@ const dorms = [
     "I like the community atmosphere that comes in a res college and that everyone is really friendly. While I would say SMQ is very chill, it is not antisocial at all. Res colleges are definitely the move. Don't be worried about choosing a South Campus dorm if you're a STEM student. Tech to South Campus is not that far, and it's nice to get to meet a lot of new people who may not be in your classes."
     <br> - Class of 2025
     `,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_1575---Quinn-Correa.JPG", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6155.jpg", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6160.jpg", caption: "Common room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6157.jpg", caption: "Kitchen"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6159.jpg", caption: "Vender Machine and All-Gender Bathroom"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6156.jpg", caption: "Common room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6158.jpg", caption: "Laundry Room"}
+    ],
 
     allgender: "no",
     latitude: 42.0514089,
@@ -690,8 +881,20 @@ const dorms = [
     <br><br>
     "It's cute, people are chill, but also it's so old that it shouldn't have people living in it. It's leaky. I would rather live in one of the Shepards."
     <br> - Class of 2023`,
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
-
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0413-Medium.png", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0414-Medium.png", caption: "Double room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0415-Medium.png", caption: "Double room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0416-Medium.png", caption: "Lounge"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0418-Medium.png", caption: "Bathroom"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0419-Medium.png", caption: "Bathroom"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0420-Medium.png", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0421-Medium.png", caption: "Common room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0423-Medium.png", caption: "Study room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0424-Medium.png", caption: "Gym"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0426-Medium.png", caption: "Kitchenette"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_0427-Medium.png", caption: "Kitchenette"},
+    ],
     allgender: "yes",
     latitude: 42.0510565,
     longitude: -87.6756823,
@@ -724,7 +927,23 @@ const dorms = [
     tech: "0.7 mi / 1.13 km",
     norris: "0.5 mi / 0.80 km",
     rock: "0.3 mi / 0.48 km",
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-4262.JPEG", caption: "Single room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-4266.JPEG", caption: "Single room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9135.JPG", caption: "Triple room"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9071.JPG", caption: "First floor lounge"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9073.JPG", caption: "Study room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9078.JPG", caption: "Kitchen"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9079.JPG", caption: "Fran's Cafe/first floor lounge"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9081.JPG", caption: "Fran's Cafe"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9082.JPG", caption: "Bathroom"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9083.JPG", caption: "Bathroom"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9085.JPG", caption: "Bathroom"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9086.JPG", caption: "Kitchenette"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9088.JPG", caption: "Lounge"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9090.JPG", caption: "Lounge"}
+
+    ],
 
     allgender: "yes",
     latitude: 42.0517582,
@@ -761,11 +980,18 @@ const dorms = [
     <br><br>
     "It's good vibe in 1838. People definitely mind their business, but the atmosphere is social enough that it doesn't feel gloomy or isolating. I like the layout of the rooms, proximity to the dining hall, the gym, and the bathrooms. The lounges aren't great and don't welcome that much social hangout space. It is also possible that you can get stuck in a smaller double, and it does feel cramped at times, especially with the one small window."
     <br>- Class of 2024
-    
-    
-    
     `,
-    images: [ {img: "https://northbynorthwestern.com/content/images/2022/05/Screen-Shot-2022-03-01-at-10.08.30-PM.png", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4513.png", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/Screen-Shot-2022-03-01-at-10.13.37-PM.png", caption: "Double room"},  {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4487.png", caption: "Bathroom"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4489.png", caption: "Bathroom"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4493.png", caption: "Common Area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4501.png", caption: "Common area"},  {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4502.png", caption: "Common area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4504.png", caption: "Common area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4508.png", caption: "Common area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4510.png", caption: "Kitchen"}, ],
+    images: [ {img: "https://northbynorthwestern.com/content/images/2022/05/Screen-Shot-2022-03-01-at-10.08.30-PM.png", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4513.png", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/Screen-Shot-2022-03-01-at-10.13.37-PM.png", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4487.png", caption: "Bathroom"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4489.png", caption: "Bathroom"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4493.png", caption: "Common Area"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4501.png", caption: "Common area"},  
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4502.png", caption: "Common area"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4504.png", caption: "Common area"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4508.png", caption: "Common area"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_4510.png", caption: "Kitchen"}, ],
 
     allgender: "no",
     latitude: 42.050951,
@@ -792,20 +1018,45 @@ const dorms = [
     rock: "0.2 mi / 0.32 km",
     description: "",
     testimonial: `
-    "636 has charm! The vibes are good, I like the people here, and it's a super pretty building from the outside. Our lounges are quite nice too. The location is nice (right between Plex and Allison, so we've got our choice of dining hall), and it's really not a far walk from Tech, where the majority of my classes have been. However, THIS DORM WAS NOT READY TO BE LIVED IN! The so-called renovations were rushed. Some highlights are the bathroom flooding three times from the same place, the radiators from HELL that thunk extremely loudly at all hours of the night and the front door to the building malfunctioning twice. If not for those problems, 636 would be a decent dorm."
+    "636 has charm! The vibes are good, I like the people here, and it's a super pretty building 
+    from the outside. Our lounges are quite nice too. The location is nice (right between Plex and 
+      Allison, so we've got our choice of dining hall), and it's really not a far walk from Tech, where 
+      the majority of my classes have been. However, THIS DORM WAS NOT READY TO BE LIVED IN! The so-called 
+      renovations were rushed. Some highlights are the bathroom flooding three times from the same place, 
+      the radiators from HELL that thunk extremely loudly at all hours of the night and the front door to 
+      the building malfunctioning twice. If not for those problems, 636 would be a decent dorm."
     <br> - Class of 2025
     <br><br>
-    "It's very small, quiet and cozy. For people seeking a vibrant social scene, 636 probably isn't the best option - but if you'd like a more solitary dorm experience, this is the way to go. I really like the common spaces in the dorm. The atmosphere is pretty homey, and it's nice to have a living room with a TV. Major downsides to this dorm are that it doesn't have AC and things are frequently breaking/flooding/otherwise in disrepair." 
+    "It's very small, quiet and cozy. For people seeking a vibrant social scene, 636 probably 
+    isn't the best option - but if you'd like a more solitary dorm experience, this is the way to go.
+     I really like the common spaces in the dorm. The atmosphere is pretty homey, and it's nice to have a
+      living room with a TV. Major downsides to this dorm are that it doesn't have AC and things are frequently
+       breaking/flooding/otherwise in disrepair." 
     <br>- Class of 2024
     <br><br>
-    "It's small and usually quiet. Likes: quiet, never have to wait to pee or shower. Dislikes: no AC, no ventilation, have to go to the basement for the water fountain and laundry, showers are SO SMALL, our bathroom ceiling leaks a ton."
+    "It's small and usually quiet. Likes: quiet, never have to wait to pee or shower. Dislikes: no AC, 
+    no ventilation, have to go to the basement for the water fountain and laundry, showers are SO SMALL, 
+    our bathroom ceiling leaks a ton."
     <br> - Class of 2025
     <br><br>
-    "The view of the sorority quad from our window is beautiful, and it's pretty quiet. If there's ever a problem, maintenance is very kind. 636 is not a party dorm. I have not been kept up by my neighbors ever. It's one of the cheapest dorms to live in, which is nice. The rooms are decently large. And our washers/dryers are brand new! However - the dorm is renovated in the most general sense. They stuck in some ugly modern furniture and swept a bit, and that was it. Surprisingly, I have enjoyed my time at 636 Emerson. It's been a blast." 
+    "The view of the sorority quad from our window is beautiful, and it's pretty quiet. If there's ever a 
+    problem, maintenance is very kind. 636 is not a party dorm. I have not been kept up by my neighbors ever. 
+    It's one of the cheapest dorms to live in, which is nice. The rooms are decently large. And our washers/dryers 
+    are brand new! However - the dorm is renovated in the most general sense. They stuck in some ugly modern furniture and 
+    swept a bit, and that was it. Surprisingly, I have enjoyed my time at 636 Emerson. It's been a blast." 
     <br>- Class of 2024
 
     `,
-    images: [ {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3245.jpg", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3246.jpg", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3244.jpg", caption: "Common area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3247.jpg", caption: "Bathroom"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3248.jpg", caption: "Bathroom"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3249.jpg", caption: "Bathroom"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3250.jpg", caption: "Common Area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3251.jpg", caption: "Common Area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3252.jpg", caption: "Common Area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3243.jpg", caption: "Kitchen"}],
+    images: [ {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3245.jpg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3246.jpg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3244.jpg", caption: "Common area"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3247.jpg", caption: "Bathroom"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3248.jpg", caption: "Bathroom"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3249.jpg", caption: "Bathroom"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3250.jpg", caption: "Common Area"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3251.jpg", caption: "Common Area"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3252.jpg", caption: "Common Area"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-3243.jpg", caption: "Kitchen"}],
 
     allgender: "no",
     latitude: 42.051917,
@@ -835,7 +1086,12 @@ const dorms = [
     "It's kinda close knit. The sophomores kinda stick to themselves. The bathrooms are nice, I think they just renovated. I haven't disliked much here. It's a bit small, so you don't see that many people."
     <br>- Class of 2025
     `,
-    images: [ {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6038-2.jpg", caption: "Common area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6040.jpg", caption: "Common area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6041.jpg", caption: "All-gender bathroom"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6042.jpg", caption: "Laundry room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6039.jpg", caption: "Common area"},],
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6038-2.jpg", caption: "Common area"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6040.jpg", caption: "Common area"},
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6041.jpg", caption: "All-gender bathroom"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6042.jpg", caption: "Laundry room"}, 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6039.jpg", caption: "Common area"},],
 
     allgender: "no",
     latitude: 42.051918,
@@ -862,10 +1118,21 @@ const dorms = [
     rock: "0.3 mi / 0.48 km",
     description: "",
     testimonial: `
-    "710 is pretty laid back, people just hanging out. It can get fairly social at times, especially on the weekends. I like the quickness of going in and out and the pool table. I also like the common areas. I don't love being on South Campus because it can be a bit of a trek north."
+    "710 is pretty laid back, people just hanging out. It can get fairly social at times, especially on 
+    the weekends. I like the quickness of going in and out and the pool table. I also like the common areas. 
+    I don't love being on South Campus because it can be a bit of a trek north."
     <br>- Class of 2024
     `,
-    images: [ {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6128.jpg", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6129.jpg", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6127.jpeg", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6125.jpg", caption: "Laundry room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6123.jpg", caption: "Common area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6124.jpg", caption: "Kitchen"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6126.jpg", caption: "Common area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6117.jpg", caption: "Common area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6118.jpg", caption: "Common are"},],
+    images: [ 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6128.jpg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6129.jpg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6127.jpeg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6125.jpg", caption: "Laundry room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6123.jpg", caption: "Common area"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6124.jpg", caption: "Kitchen"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6126.jpg", caption: "Common area"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6117.jpg", caption: "Common area"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6118.jpg", caption: "Common are"},],
 
     allgender: "no",
     latitude: 42.0518445,
@@ -892,19 +1159,37 @@ const dorms = [
     rock: "0.8 mi / 1.29 km",
     description: "",
     testimonial: `
-    "Pretty chill but not very tight because of how big it is. The single rooms are really small. The amenities are nice (laundry on every floor). It is very far north which gets annoying when you need to go to South Campus. Lincoln is a good place to live!"
+    "Pretty chill but not very tight because of how big it is. The single rooms are really small. 
+    The amenities are nice (laundry on every floor). It is very far north which gets annoying when 
+    you need to go to South Campus. Lincoln is a good place to live!"
     <br>- Class of 2023
     <br><br>
-    "It's a good mix of social and isolated. Most people hang out in lounges or have people over, as the suite style rooms enable hosting. Being at the north end of campus can sometimes get tiring, especially during a quarter where all of your classes are south. I really enjoy having an elevator, my own bathroom and a kitchen on every floor. It's a super bright and clean dorm, which makes it feel homier."
+    "It's a good mix of social and isolated. Most people hang out in lounges or 
+    have people over, as the suite style rooms enable hosting. Being at the north 
+    end of campus can sometimes get tiring, especially during a quarter where all 
+    of your classes are south. I really enjoy having an elevator, my own bathroom and a 
+    kitchen on every floor. It's a super bright and clean dorm, which makes it feel homier."
     <br>- Class of 2025
     <br><br>
-    "Love love love the amenities that come with Lincoln. The rooms are so nice, and the bathroom area is so clean and nice and private! The nice kitchens and lounges on each floor are also great for studying or watching a movie with friends! The one thing about Lincoln is that the suite style is not conducive for making friends. It's hard to meet people and befriend people on your floor. Lots of people I know in other dorms made most of their friends at first from where they lived, but that isn't the case in Lincoln. Amenities > everything, you'll make your friends elsewhere anyway."
+    "Love love love the amenities that come with Lincoln. The rooms are so nice, and 
+    the bathroom area is so clean and nice and private! The nice kitchens and lounges 
+    on each floor are also great for studying or watching a movie with friends! The on
+    e thing about Lincoln is that the suite style is not conducive for making friends. 
+    It's hard to meet people and befriend people on your floor. Lots of people I know in
+     other dorms made most of their friends at first from where they lived, but that isn't 
+     the case in Lincoln. Amenities > everything, you'll make your friends elsewhere anyway."
     <br>- Class of 2025
     <br><br>
-    "It's chill, open, pretty quiet. I like the space, view, not having to leave the room to go to the bathroom/shower, having suitemates, lounges, easy access to kitchens and laundry. There have been some problems with the fire alarm, and it's the northernmost dorm (so kinda far from stuff)."
+    "It's chill, open, pretty quiet. I like the space, view, not having to leave the room to go to the bathroom/shower, 
+    having suitemates, lounges, easy access to kitchens and laundry. There have been some problems with the fire alarm, 
+    and it's the northernmost dorm (so kinda far from stuff)."
     <br>- Class of 2025
     `,
-    images: [ {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_8400.JPEG", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/lincoln1.jpg", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/lincoln2.jpg", caption: "Suite common area"}, {img: "https://northbynorthwestern.com/content/images/2022/05/lincoln3.jpg", caption: "Suite bathroom"}, {img: "https://northbynorthwestern.com/content/images/2022/05/lincoln4.jpg", caption: "Suite bathroom"},],
+    images: [ {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_8400.JPEG", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/lincoln1.jpg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/lincoln2.jpg", caption: "Suite common area"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/lincoln3.jpg", caption: "Suite bathroom"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/lincoln4.jpg", caption: "Suite bathroom"},],
 
     allgender: "yes",
     latitude: 42.061379,
@@ -930,8 +1215,12 @@ const dorms = [
     norris: "0.4 mi / 0.64 km",
     rock: "0.3 mi / 0.48 km",
     description: "",
-    testimonial: "",
-    images: [ {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-4214.JPEG", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-4220.JPEG", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-4215.JPEG", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-4213.JPEG", caption: "Double room"}],
+    testimonial: "No testimonials.",
+    images: [ 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-4214.JPEG", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-4220.JPEG", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-4215.JPEG", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-4213.JPEG", caption: "Double room"}],
 
     allgender: "no",
     latitude: 42.05166275,
@@ -989,7 +1278,23 @@ const dorms = [
     "North campus's hidden gem, lively down-to-earth lounge community. There are great community events between GREEN House, RAs and CCS. GREEN House seems to be on the up and up. Water pressure in faucets is WEAK though."
     <br>- Class of 2023
     `,
-    images: [ {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3009.jpg", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3011.jpg", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3012.jpg", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2982.jpg", caption: "Common room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2983.jpg", caption: "Common room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2984.jpg", caption: "Common room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2987.jpg", caption: "Common room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2989.jpg", caption: "Common room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2994.jpg", caption: "Basement"},  {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2995.jpg", caption: "Basement"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2996.jpg", caption: "Basement"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2997.jpg", caption: "Kitchen"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2999.jpg", caption: "Kitchen"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3001.jpg", caption: "kitchen"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3005.jpg", caption: "bathroom"}, {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3007.jpg", caption: "bathroom"},],
+    images: [ 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3009.jpg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3011.jpg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3012.jpg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2982.jpg", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2983.jpg", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2984.jpg", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2987.jpg", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2989.jpg", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2994.jpg", caption: "Basement"},  
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2995.jpg", caption: "Basement"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2996.jpg", caption: "Basement"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2997.jpg", caption: "Kitchen"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_2999.jpg", caption: "Kitchen"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3001.jpg", caption: "kitchen"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3005.jpg", caption: "bathroom"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_3007.jpg", caption: "bathroom"},],
 
     allgender: "yes",
     latitude: 42.059101,
@@ -1015,8 +1320,41 @@ const dorms = [
     norris: "0.6 mi / 0.97 km",
     rock: "0.6 mi / 0.97 km",
     description: "",
-    testimonial: "",
-    images: [ {img: "https://northbynorthwestern.com/content/images/2022/05/68EFA956-DC63-4EF6-ACC7-EDEA476CDB56.jpeg", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/05063333-24CF-47A5-9CBC-551E43912E1C.jpeg", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/A4DE90E1-D182-498D-A0E9-A24B9660A1CB.jpeg", caption: "Double room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/4E4877FD-49CD-474E-B5A0-5FD353931CF2.jpeg", caption: "Bathroom"}, {img: "https://northbynorthwestern.com/content/images/2022/05/8F0B0416-0169-4B80-BFCC-05D3379CA3EC.jpeg", caption: "Bathroom"}, {img: "https://northbynorthwestern.com/content/images/2022/05/400788C8-545A-4E63-82C9-78E409BA1BB2.jpeg", caption: "bathroom"}, {img: "https://northbynorthwestern.com/content/images/2022/05/786ECE72-0FAF-4211-AE48-12C35008D858.jpeg", caption: "Bathroom"}, {img: "https://northbynorthwestern.com/content/images/2022/05/40A60993-8B11-492E-8BB7-A710672E459C.jpeg", caption: "Common room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/0BD38018-2616-45BB-9327-56CB0804B890.jpeg", caption: "Common room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/518304D2-4577-4325-A07C-ACB091E93347.jpeg", caption: "Common room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/605387CB-2E28-4314-94C3-D4A1D11E7F40.jpeg", caption: "Common room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/B0EF3109-BC76-4F21-A446-44EE276C382E.jpeg", caption: "Common room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/D6C8D1DF-69AF-468D-889F-8E9115515540.jpeg", caption: "Common room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/8199C0F2-56DD-4FE2-BAFD-186CEA7E6E3A.jpeg", caption: "Common room"}, {img: "https://northbynorthwestern.com/content/images/2022/05/AF1DC4B5-8C47-4BF2-AA23-E33D5CFEB562.jpeg", caption: "Laundry room"},],
+    testimonial: `
+    "The thin walls are awful because it means hearing and smelling everything against your will. Best part is how few people mind their business and are usually mindful of the other people living there. 2307 would be better with air conditioning and different people living there, but we can't all choose our neighbors."
+    <br> - Class of 2025
+    <br><br>
+    "It's small and quiet. All the rooms are singles and I like living in a single. There's no kitchen, but we have a microwave and a fridge. There's no AC which sucks, and it gets pretty hot during the not winter. We have a piano, which is cool. It's small so the people in the dorm are kinda close, it's a tighter-knit community."
+    <br>- Class of 2025
+    <br><br>
+    "It's pretty chill. People kind of keep to themselves. Great location, it' s a pretty building with a cool staircase, small and quiet. It's not a particularly social dorm by virtue of only like 30 people living here this year, and it gets really hot in the early fall/late spring. I actually moved here from 1856 Orrington, and I like it a lot better."
+    <br> - Class of 2024
+    <br><br>
+    "It's warm and welcoming. Many facilities need frequent maintenance. Too manys stairs without an elevator causes difficulties with moving in and out. The community is friendly, though. I would want to live somewhere else. 2307 was not in my list of preferred choices."
+    <br> - Class of 2025
+    <br><br>
+    "2307 is close-knit, homey, cozy. Likes: good location, water fountain. Dislikes: no AC, no elevator, only two laundry machines, gross bathrooms. I'd rather live somewhere else."
+    <br> - Class of 2025
+    <br><br>
+    "I like how cozy the common spaces are and its proximity to Sarge/Tech, dislike lack of AC. I probably wouldn't live somewhere else though."
+    <br> - Class of 2024
+`,
+    images: [ 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/68EFA956-DC63-4EF6-ACC7-EDEA476CDB56.jpeg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/05063333-24CF-47A5-9CBC-551E43912E1C.jpeg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/A4DE90E1-D182-498D-A0E9-A24B9660A1CB.jpeg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/4E4877FD-49CD-474E-B5A0-5FD353931CF2.jpeg", caption: "Bathroom"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/8F0B0416-0169-4B80-BFCC-05D3379CA3EC.jpeg", caption: "Bathroom"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/400788C8-545A-4E63-82C9-78E409BA1BB2.jpeg", caption: "bathroom"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/786ECE72-0FAF-4211-AE48-12C35008D858.jpeg", caption: "Bathroom"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/40A60993-8B11-492E-8BB7-A710672E459C.jpeg", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/0BD38018-2616-45BB-9327-56CB0804B890.jpeg", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/518304D2-4577-4325-A07C-ACB091E93347.jpeg", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/605387CB-2E28-4314-94C3-D4A1D11E7F40.jpeg", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/B0EF3109-BC76-4F21-A446-44EE276C382E.jpeg", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/D6C8D1DF-69AF-468D-889F-8E9115515540.jpeg", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/8199C0F2-56DD-4FE2-BAFD-186CEA7E6E3A.jpeg", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/AF1DC4B5-8C47-4BF2-AA23-E33D5CFEB562.jpeg", caption: "Laundry room"},],
 
     allgender: "no",
     latitude: 42.0596108,
@@ -1041,9 +1379,28 @@ const dorms = [
     tech: "0.3 mi / 0.48 km",
     norris: "0.6 mi / 0.97 km",
     rock: "0.7 mi / 1.13 km",
-    description: "",
-    testimonial: "",
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    description: "This is just another one of those dorms located North Campus in the fraternity quad. It’s four floors without an elevator, which can sometimes be an issue with laundry on the first floor. It has nice common areas and close proximity to North Campus amenities such as dining halls, SPAC and Mudd Library.",
+    testimonial: 
+    `"It's chill, pretty quiet. The downstairs area could be used to hangout or for smaller parties, so that's cool. Everyone kinda keeps to themselves but is friendly when interacting. We have a good basement area, pool tables, fourth floor lounge is huge. The rooms are quiet and spacious, and they stay pretty cool most of the year. Laundry always breaks, and there are only two washers/dryers for the whole building. Cockroaches, house centipedes and spiders aren't a rare sight. No elevator (along with kitchen and laundry in basement) means a lot of going up and down flights of stairs. This place is nice, but I would've preferred living on the second floor so the stairs aren't an issue."
+    <br> - Class of 2024
+    <br><br>
+    "People don't seem to be super social. It seems to be like you do your own thing, but the rooms are big, so that's nice. Insulation is not great. It's close to Tech and Elder. Lincoln is also nearby, which is nice."
+    <br> - Class of 2024
+    
+    `,
+    images: [ 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6066.jpg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6065.jpg", caption: "Double room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6058.jpg", caption: "Common room"},
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6060.jpg", caption: "Common room"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6057.jpg", caption: "Common room"},
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6061.jpg", caption: "Kitchen"}, 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6062.jpg", caption: "Kitchen"},
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6063.jpg", caption: "Bathroom"},
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6070.jpg", caption: "Laundry room"},
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-6071.jpg", caption: "Basement"},
+
+  ],
 
     allgender: "no",
     latitude: 42.060801,
@@ -1070,7 +1427,9 @@ const dorms = [
     rock: "0.7 mi / 1.13 km",
     description: "",
     testimonial: "",
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    images: [ 
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9666.jpeg", caption: "Double room"},
+    {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9724.jpeg", caption: "Hall"},],
 
     allgender: "no",
     latitude: 42.061053,
@@ -1097,8 +1456,9 @@ const dorms = [
     norris: "0.6 mi / 0.97 km",
     rock: "0.6 mi / 0.97 km",
     description: "",
-    testimonial: "",
-    images: [ {img: "macarthur.jpg", caption: "macarthur"}, {img: "chita_house.jpg", caption: "house"}, {img: "chita_outside.jpg", caption: "plants"}],
+    testimonial: "No testimonials.",
+    images: [ 
+      {img: "https://northbynorthwestern.com/content/images/2022/05/New-dorm--who-dis.png", caption: "We don't have photos at this time."},],
 
     allgender: "no",
     latitude: 42.059568,
