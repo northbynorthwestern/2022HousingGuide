@@ -58,6 +58,7 @@ p {
   color: black;
   font-size: 1rem;
   font-family: serif;
+  font-family: "Roboto", sans-serif;
 }
 #header {
   position: fixed;

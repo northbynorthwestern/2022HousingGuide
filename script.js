@@ -15,7 +15,15 @@ const dorms = [
     triples: "yes",
     prices: "Double: 10,581",
     link: "https://www.northwestern.edu/living/residential-experience/housing-options/res-halls/allison.html",
-    description: "Don't make the same mistake I did: Allison does NOT have ten floors, only four. Room 1005 is on the first floor. Known for having the best south dining hall and gender-open housing on the first floor. Allison's hallways look like an orange color that belongs in American Horror Story. Does induce hallucinations. So many doors on the stairs for no reason. The rooms are super nice, but the bathroom showers always leak and the bathrooms are super gross. No one calls it Hotel Allison, but everyone says it's called that. Would recommend it to a friend — unless you have asthma or respiratory issues, because the entire dorm is carpet except for the bathrooms. ",
+    description: `Allison is one of two South Campus dorms with a dining hall 
+    in it (Plex is the other). If you lose your keys, you won't have to go far because 
+    the South Area Desk is located in Allison. Rooms are known for being spacious and carpeted. It's
+     in close proximity to the study spaces in Shepard, the 1838 gym and the sorority quad. No one
+      actually calls it Hotel Allison, but some people say it's called that.
+    <br><br>
+    Allison offers all-gender housing on the first floor that students 
+    must opt into. Students can select either singles or doubles. The community bathrooms are labeled all-gender on that floor.
+    `,
     testimonial: `
     "The room is big, it's a great location and it's so convenient to live on top of a dining hall."<br>
     - Class of 2025
@@ -69,7 +77,12 @@ const dorms = [
     tech: "0.3 mi / 0.48 km",
     norris: "0.6 mi / 0.97 km",
     rock: "0.7 mi / 1.13 km",
-    description: "",
+    description: `Ayers Hall houses the Residential College of Commerce and Industry, although everyone 
+    just calls it Ayers. You can network with other economics and business majors in Ayers if that's 
+    your thing. Students have said the inside of the building looks like a submarine. There are lots 
+    of common spaces to hang out or study. You can play foosball, ping pong or pool on the first floor. 
+    It also has an elevator.
+    `,
     testimonial:  `
     "Ayers is friendly, quiet, calm, nice. I like that it's chill, they give us food on Sundays (res college superiority). I don't like the washers or the halls that look like prisons. The bathrooms are fine. I like living in Ayers. The dorms are big, and I have a lot of friends there." 
     <br>
@@ -113,7 +126,13 @@ const dorms = [
     tech: "0.2 mi / 0.32 km",
     norris: "0.6 mi / 0.97 km",
     rock: "0.7 mi / 1.13 km",
-    description: "",
+    description: `Bobb has a bit of a reputation as a grody but fun party dorm.
+     It used to be a free-standing building, until McCulloch was attached to it. 
+     It may not be the best place to study on a weekend evening, but people are known 
+     for having a good time there. It's steps away from Lisa's and Tech, with basketball courts in the back.
+    <br><br>
+    Famous alum: George R. R. Martin lived in Bobb!
+    `,
     testimonial: `
     "Bobb is pretty social. The bathrooms are the worst but I have made a ton of friends on my floor. I wouldn't have wanted to live anywhere else."
     <br> - Class of 2025
@@ -154,7 +173,13 @@ const dorms = [
     tech: "0.7 mi / 1.13 km",
     norris: "0.5 mi / 0.8 km",
     rock: "0.3 mi / 0.48",
-    description: "",
+    description: `
+    Chapin is a humanities-themed residential college located in the southwest corner of campus. All the rooms are doubles. It's
+     the oldest campus residence, and is known for its unique historic architecture and large rooms. It has a kitchen, pool table
+      and study spaces on the ground floor. Although Chapin houses the humanities residential college, students from all majors can and do live in Chapin.
+    <br><br>
+   Note: Chapin offers all-gender housing. Ten students who opt in are assigned an all-gender double. They will share one community-style all-gender bathroom.
+    `,
     testimonial:`
     "We have the largest doubles on campus, which allows for spacious living, and even the bathrooms are very big and clean. One drawback is that it's pretty far from some classes because it's at the southwest corner of campus, especially in winter quarter. If you engage with the community it's really nice, and it's across from Willard, where you can be part of the southwest area community."
     <br> - Class of 2025
@@ -200,7 +225,16 @@ const dorms = [
     tech: "0.6 mi / 0.97 km",
     norris: "0.2 mi / 0.32 km",
     rock: "0.1 mi / 0.16 km",
-    description: "",
+    description: `East Fairchild is more commonly known as CRC, for the Communications Residential College 
+    that it houses. CRC draws lots of Medill and School of Communication students who are interested in the 
+    thematic events and community of CRC. Perks include two screening rooms: the tiny screening room (TSR) and
+     big screening room (BSR). The building has fun traditions and regularly organizes social activities including 
+     munchies and talks with faculty members. The amenities are a little outdated, and the rooms are on the smaller
+      side. There are four lounges on every floor where people gather to study or hang out. The basement of CRC 
+      has a study room, music practice room and a studio where CRC holds their annual Radiothon - 50 straight 
+      hours of broadcasting to benefit the American Heart Association. East and West Fairchild together are 
+      often referred to as the “Fairchildren.”
+    `,
     testimonial: `
     "It's a smaller dorm and the rooms are smaller, but it is a really great community, and I have made a lot of good friends on my floor. Only bad thing is that there's no elevator, so if you live on the second or third floor that can be annoying."
     <br><br>
@@ -238,7 +272,20 @@ const dorms = [
     tech: "0.3 mi / 0.48 km",
     norris: "0.7 mi / 1.13 km",
     rock: "0.7 mi / 1.13 km",
-    description: "",
+    description: `Elder is one of two North Campus residences with a dining hall in it (Sargent is the other). 
+    Located on the other side of Sheridan Road from the fraternity quad, it's a short walk from other North 
+    Campus residences and SPAC. One of its main perks is a dining hall in the lower level of the dorm. The 
+    dining hall is weirdly lit and reminiscent of a T.G.I. Friday's (on a Thursday night). It's known for being fun but not the nicest dorm.
+    <br><br>
+    Elder also offers all-gender housing in a specific wing of the building. Community bathrooms in 
+    that wing are marked as all-gender. Residents of this wing must opt into all-gender housing.
+    <br><br>
+    Accessibility note: Elder has ADA accessible rooms and an elevator. While Elder has a lift 
+    that takes students who use wheelchairs to the dining hall, it has had malfunction issues 
+    with the doors and has not always been fixed in a timely manner.
+    <br><br>
+    Famous alum: Rumor has it, Maude Apatow lived in Elder!
+    `,
     testimonial: `
     "Elder is just ok. Having a dining hall under is very convenient. Rooms are not bad, relatively spacious. Bathrooms and facilities are not great and have a lot of plumbing issues/water leaks/no hot water days. I would choose somewhere else to live."
     <br> - Class of 2024.
@@ -300,7 +347,17 @@ const dorms = [
     tech: "0.5 mi / 0.8 km",
     norris: "0.4 mi / 0.64 km",
     rock: "0.2 mi / 0.32 km",
-    description: "",
+    description: `Plex is a ton of singles arrayed in kind of a maze-like style. 
+    Plex used to be limited to second-year students and up, but now it's open to freshmen. 
+    Because of that, Plex's formerly isolated reputation has shifted. One of its perks is a dining 
+    hall on the ground floor divided into Plex West (which stays open until 10 pm) and Plex East (known 
+    for its stir fry). It's close to the Blomquist gym. The main South Campus mailroom is conveniently 
+    located in the basement of Plex.
+    <br><br>
+    Plex offers all-gender housing, though it is not located in a specific area of the dorm due to the 
+    dorm being entirely singles. According to res services, normally, four students share a single-person 
+    occupancy bathroom, which is more private than community-style bathrooms.
+    `,
     testimonial: `
     "The vibe depends on which floor you're on. Some floors are very outgoing, and they get to know each other a lot, and they'll be loud at night, but in a good way. Some floors are very keep to yourself, quiet, everybody does their own thing. There's something about the roommate experience that you miss out on, for sure, but I think there are a lot of other aspects that make up for it, especially the fact that the whole building is singles. You get to know people, nobody's like hiding in their room, away from everyone else. You have the food and the convenience store and the laundry, which is very convenient. My least favorite part about living here would be that the walls are very thin. It's in the perfect spot on campus, because it's South Campus, which is by most of the classes, but it's the northernmost part of South Campus, so it's still not far from any of the north buildings. If you have a hard time making friends, though, I might not recommend it."
     <br>- Class of 2025
@@ -348,7 +405,11 @@ const dorms = [
     tech: "0.2 mi / 0.32 km",
     norris: "0.6 mi / 0.97 km",
     rock: "0.7 mi / 1.13 km",
-    description: "",
+    description: `Although Goodrich is close to North Campus dining halls, 
+    you also have a kitchen on the first floor, plus Goodrich directly across 
+    from Lisa's. It's also one of the oldest dorms on campus. It has an accessible lift
+     and lounge areas on the first floor.
+    `,
     testimonial: `"It's pretty calm and quiet. I like that it's peaceful, and the people are nice. It would be nice if there were more bonding, though. It's not very social. I can't really hear parties or things like that going on around here. The walk south can be tedious."
     <br>- Class of 2024    `,
     images: [ 
@@ -385,7 +446,10 @@ const dorms = [
     tech: "0.6 mi / 0.97 km",
     norris: "0.4 mi / 0.64 km",
     rock: "0.4 mi / 1.32 km",
-    description: "",
+    description: `Hobart is Northwestern's women's residential college. It's located in the sorority quad, 
+    right next to the Mid-Quads and Searle Health Center. It's a rule that you have to yell "MAN ON THE FLOOR!"
+    if a guy comes over, although it's more common that people will put it in the group chat now. Hobart is known for having a welcoming vibe.
+    `,
     testimonial: `
     "I've heard a lot of people describe Hobart as cottagecore. Generally it's very cozy and homey! There are some issues with people leaving dishes all over the sink and wildly inconsistent room sizes though. If I had the chance to do it over again, I would still live in Hobart. I love it."
     <br> - Class of 2024
@@ -435,7 +499,16 @@ const dorms = [
     tech: "0.8 mi / 1.29 km",
     norris: "0.4 mi / 0.64 km",
     rock: "0.2 mi / 0.32 km",
-    description: "",
+    description: `Jones is as far south as you can go, just across 
+    Sheridan Road from the Fairchildren. A bit of lore: the dorm was not 
+    meant to be used for the 2019-20 school year, but then they allegedly 
+    overfilled the class and had to open it up, greatly confusing the people who 
+    were placed there. It used to be a theater/performing residential college, 
+    but now it's just a regular residential college. You can still find theater 
+    majors and other humanities students living there who want to be close to classes 
+    and downtown Evanston. It's been used ever since. It's next to what is currently 
+    "Hotel Hinman," or quarantine for on-campus students who test positive for COVID.
+    `,
     testimonial: `
     "The Jones community is great. The people are so nice and easy to get to know. The rooms are small, but there are two lounges down every hall, which are very comfortable. The location of Jones is pretty inconvenient because it's so far away from everything. Additionally, the keys are so annoying and the building is just … old. Most people currently living in Jones did not rank Jones, including me. I would for sure live somewhere else, but I am thankful for the first-year experience living in Jones has provided me."
     <br> - Class of 2025
@@ -475,7 +548,13 @@ const dorms = [
     tech: "0.3 mi / 0.48 km",
     norris: "0.6 mi / 0.97 km",
     rock: "0.7 mi / 1.13 km",
-    description: "",
+    description: `Kemper is one the northernmost residences located right next to North Beach. 
+    It has suites of six to eight people in singles or doubles and two bathrooms. It's one of a 
+    few suite-style dorms on campus, so if you're looking for that, you may want to consider Kemper. 
+    It houses the north-area package center, so you don't have to trek around campus in the winter getting your packages.
+    <br><br>
+    Kemper offers all-gender housing. Suites can be designated all-gender based on demand.
+    `,
     testimonial: `
     "I like living in Kemper because everyone is very friendly, and I really like my suitemates."
     <br><br>
@@ -520,7 +599,10 @@ const dorms = [
     tech: "0.2 mi / 0.32 km",
     norris: "0.6 mi / 0.97 km",
     rock: "0.6 mi / 0.97 km",
-    description: "",
+    description: `Located in the fraternity quad, Lindgren houses less than 40 students, so it's
+     one of the smaller residences on North Campus. It's kind of old (built in 1914) but it's been 
+     updated a bit since then. There's a kitchen in the basement and a couple seating areas to study or host people.
+    `,
     testimonial: `
     "It's pretty quiet, but everyone seems friendly and willing to talk about their experiences! I like the location of it (near Elder, Sarge, Tech, and SPAC), but it's a bit small for my liking. I would want to live in 2303 Sheridan, the GREEN House dorm. It is sustainability-themed and is super engaging!"
     <br>- Class of 2024
@@ -567,7 +649,19 @@ const dorms = [
     tech: "0.6 mi / 0.97 km",
     norris: "0.4 mi / 0.64 km",
     rock: "0.2 mi / 0.32 km",
-    description: "",
+    description: `North Mid-Quads, also located in the sorority quad, has nice communal
+     spaces for baking, studying and hanging out. It houses the Public Affairs Residential 
+     College (PARC) and is designed in the exact same layout as South Mid-Quads (SMQ). You 
+     can shoot pool, bake in the kitchen or use the white board to work out some late-night
+      physics problems. The residential college hosts political presentations and discussions,
+       and during the 2022 election cycle, it plans to hold watch parties for the presidential debates. 
+    <br><br>
+    Accessibility note: NMQ has a handful of dorm rooms on the ground floor but no elevator. 
+    On the other floors there are only dorm rooms. Laundry and common spaces are all located 
+    on the ground floor.
+    <br><br>
+    Famous alum: Rumor has it, Meghan Markle lived in NMQ!
+    `,
     testimonial: `
     "People at NMQ are super friendly and sociable. They are always hanging around in the lounge or chatting in the hallways. The rooms, kitchen and lounge areas are all quite nice. The staircase smells sometimes, but other than that, there is nothing else I dislike. I would stay in NMQ!"
     <br>- Class of 2025
@@ -619,7 +713,8 @@ const dorms = [
     tech: "0.6 mi / 0.97 km",
     norris: "0.4 mi / 0.64 km",
     rock: "0.2 mi / 0.32 km",
-    description: "",
+    description: `Rogers House is a small residential hall in the sorority quad close to downtown Evanston. It's known for having large rooms and cool architectural features. It's close to Allison and Plex, so you have your pick of dining options. Its size can be good for students who want a smaller dorm, but it is not known as the most social dorm on campus.
+    `,
     testimonial: `
     "Rogers is a very homey, quiet dorm that can be social if you try. I like that it's so small, so there's never really any people around. The only major thing that I dislike is the washer/dryer situation, since it is a little hard to get laundry in. I'd choose Rogers again."
     <br> - Class of 2025
@@ -659,7 +754,11 @@ const dorms = [
     tech: "0.2 mi / 0.32 km",
     norris: "0.5 mi / 0.80 km",
     rock: "0.6 mi / 0.97 km",
-    description: "",
+    description: `Sargent is one of two North Campus residences with a dining hall in 
+    the dorm (Elder is the other). Athletes frequent the dining hall because of its 
+    proximity to SPAC. The dorm itself has a reputation for being a little dingy but fun, and it's
+     close to other North Campus residences, so you're not far from your North Campus friends.
+    `,
     testimonial: `
     "Sargent is a social place, but it feels a bit freshman-y. It's nice to have the dining hall, but it's pretty far from my South Campus classes."
     <br>- Class of 2024
@@ -713,7 +812,11 @@ const dorms = [
     tech: "0.6 mi / 0.97 km",
     norris: "0.4 mi / 0.64 km",
     rock: "0.2 mi / 0.32 km",
-    description: "",
+    description: `
+    Located directly across from Allison, Shepard is a modern dorm on South Campus with great amenities. The Shepard basement is open to all students, with private study spaces and incredible hanging egg chairs (!!) and common spaces for hanging out. The bathrooms are some of the nicest on campus. They also have hella common spaces open to residents only. You may even have a class or discussion section in the basement.
+    <br><br>
+    Accessibility note: Shepard has four floors and no elevator. 
+    `,
     testimonial: `
     "I think the vibe of my dorm is very chill and quiet, especially my floor. It's not very social, but the people are nice and will say hi and stuff when you pass them walking. I like the cleanliness and how modern the bathrooms are. I like that there is a nice study room and lounge. I don't have any problem with the dorm itself, just wish it was a tad more social. The only place I would pick over my current dorm would be Lincoln, I honestly really like my dorm."
     <br> - Class of 2025
@@ -769,7 +872,13 @@ const dorms = [
     tech: "0.3 mi / 0.48 km",
     norris: "0.6 mi / 0.97 km",
     rock: "0.7 mi / 1.13 km",
-    description: "",
+    description: `Slivka is home to the Residential College of Science & Engineering. A bit of a nerdy vibe. 
+    It has suite-style housing, which can foster pockets of community. It also houses Lisa's Cafe downstairs,
+     which is fun for a late-night spot. Not the best meal exchange, but you can buy snacks and little treats there. 
+     The second floor lounge offers study and hangout spaces, as well as a ping pong table.
+    <br><br>
+    Slivka offers all-gender housing. Suites of singles and doubles can be designated all-gender based on demand.
+    `,
     testimonial: `
     "It's nerdy and pretty quiet except for events. The facilities are well-kept. I like the suite-style and lounges, good kitchens, but singles can be small. I'm definitely staying in Slivka."
     <br> - Class of 2025
@@ -816,7 +925,17 @@ const dorms = [
     tech: "0.6 mi / 0.97 km",
     norris: "0.4 mi / 0.64 km",
     rock: "0.2 mi / 0.32 km",
-    description: "",
+    description: `
+    South Mid-Quads (SMQ) is a vibrant non-thematic residential college located in the sorority 
+    quad. It has the exact same layout as North Mid-Quads (NMQ). It houses Shepard Residential 
+    College, not to be confused with Shepard Hall (if someone says Shepard they're probably referring 
+    to Shepard Hall, not SMQ). The dorm hosts events often and has a reputation for being social. It 
+    also has a ping pong table, foosball table and a kitchen. Its residents are proud to be called 
+    Sheep. SMQ has an intramural sports rivalry with Willard.
+    <br><br>
+    Accessibility note: SMQ has a handful of dorm rooms on the ground floor but no elevator. On the 
+    other floors there are only dorm rooms. Laundry and common spaces are all located on the ground floor.
+    `,
     testimonial: `
     "Such a fun and engaging community! A diverse group of people and always so much going on. You can be as involved or uninvolved as you want, but even aside from events there are always people playing video games or studying downstairs, and everyone is so friendly! I like that so many people in the dorm make an effort to get to know others, and everyone is friendly and kind.
     I dislike that there are only three sets of washers and dryers for 75 people. I got randomly assigned to SMQ, but I'm so glad I did."
@@ -865,7 +984,14 @@ const dorms = [
     tech: "0.6 mi / 0.97 km",
     norris: "0.2 mi / 0.32 km",
     rock: "0.1 mi / 0.16 km",
-    description: "",
+    description: `West Fairchild, or the International Studies Residential College (ISRC), is the mirror of East Fairchild (CRC). 
+    East and West Fairchild together are referred to as the "Fairchildren." The Fairchildren look down Hinman Avenue and are a 
+    short walk from Kresge, the McCormick Foundation Center, Fisk and University Hall. According to ISRC's website, most of their 
+    events have an international focus, such as weekly International Film Nights and multicultural munchies. But you don't have to
+     be a political science major to live in ISRC!
+    <br><br>
+    According to residential services, roughly 18 students in singles and doubles will share two all-gender bathrooms.
+    `,
     testimonial: `
     "I feel like the vibe is kind of like, we're working with what we have. And we've built up, at least on our floor, a pretty good community, despite the struggles. It's a great location. The exec board does a great job. There's lots of activities that you can engage in to help you get more involved, and you'll probably enjoy your experience here a little more."
     <br> - Class of 2025
@@ -914,7 +1040,18 @@ const dorms = [
     doubles: "yes",
     triples: "yes",
     prices: "Single: 12,633; Double: 11,274",
-    description: "Willard is a non-thematic residential college, nestled in the end of the sorority quad and housing the infamous Fran's, a late night haunt for students that serves quesadillas and shakes. In the basement near Fran's is a lounge to hang with your friends, although be warned that students love to show off on the grand piano there. Since Willard is a res college, it has regular programming organized by the exec, along with a quarterly formal.",
+    description:`
+    Willard is nestled in the end of the sorority quad and houses the infamous Fran's, a late night haunt for students that serves quesadillas 
+    and shakes. In the basement near Fran's is a lounge to hang with your friends, although be warned that students love to show off on the 
+    grand piano there. Willard is a non-thematic residential college and has regular programming organized by the executive board, along with 
+    a yearly formal. It has lots of common spaces, a kitchen on every floor and a gym in the basement. Willard has an intramural sports rivalry with SMQ.
+    <br><br>
+    Accessibility note: Willard has nine ADA accessible rooms on the first floor, along with an elevator that goes to all floors.
+    <br><br>
+    Willard offers all-gender housing for 12 students in a specific wing of the dorm, who will share one all-gender, community-style bathroom.
+    <br><br>
+    Famous alum: Julia Louis-Dreyfus, Seth Meyers, David Schwimmer, and Stephen Colbert lived in Willard!
+`,
     testimonial: `It's the kind of place where you can say hi to people you pass by in the lounge and even sit down and study with them. I would live in an apartment if I didn't live in Willard because I wouldn't be able to find the same kind of community in any other dorm. 
     <br>- Jess Wu, Willard PR Chair, Class of 2024 <br><br>
 
@@ -970,7 +1107,14 @@ const dorms = [
     rock: "0.1 mi / 0.16 km",
     doublePrice: "",
     singlePrice: "",
-    description: "description",
+    description: `
+    Located close to Allison's dining hall and Shepard's study spaces, 1838 is in an ideal location with good amenities. 
+    It has a modern look, and it has a kitchen and a gym in the basement. It's just across the Sheridan crosswalk from the Arch, 
+    and there's a small study space outside with swinging chairs that looks very homey and cute.
+    <br><br>
+    Accessibility note: 1838 has two ADA accessible rooms on the ground floor, according to current residents, but the elevator 
+    only goes between the ground floor and the gym in the basement, not to other floors.
+    `,
     testimonial: `
     "1838 Chicago is a very quiet dorm, making it the perfect place to sleep. I enjoy that I have a quiet space to come home to after hanging out with friends. If you're looking for a dorm with a social life, I would not recommend living here."
     <br>- Class of 2025
@@ -1016,7 +1160,11 @@ const dorms = [
     tech: "0.6 mi / 0.97 km",
     norris: "0.4 mi / 0.64 km",
     rock: "0.2 mi / 0.32 km",
-    description: "",
+    description: `The site of a former sorority house, 636 Emerson has been converted into residential use
+     beginning the 2021-22 school year. It was renovated prior to the 2021-22 year, but residents have reported
+      some issues with the amenities. With a kitchen in the basement and close proximity to Plex, Allison and 
+      Willard, 636 residents have lots of food options.
+    `,
     testimonial: `
     "636 has charm! The vibes are good, I like the people here, and it's a super pretty building 
     from the outside. Our lounges are quite nice too. The location is nice (right between Plex and 
@@ -1081,7 +1229,10 @@ const dorms = [
     tech: "0.6 mi / 0.97 km",
     norris: "0.4 mi / 0.64 km",
     rock: "0.2 mi / 0.32 km",
-    description: "",
+    description: `Located in a back corner of the sorority quad, 640 Emerson is another converted 
+    sorority house. The first floor has an open layout with couches, tables, a pool table and piano. 
+    It's right across Emerson St. from Searle Health Center.
+    `,
     testimonial: `
     "It's kinda close knit. The sophomores kinda stick to themselves. The bathrooms are nice, I think they just renovated. I haven't disliked much here. It's a bit small, so you don't see that many people."
     <br>- Class of 2025
@@ -1116,7 +1267,10 @@ const dorms = [
     tech: "0.6 mi / 0.97 km",
     norris: "0.4 mi / 0.64 km",
     rock: "0.3 mi / 0.48 km",
-    description: "",
+    description: `Another former sorority house, 710 Emerson has open space on the ground 
+    floor for congregating. It has couches for studying and hanging out, as well as a 
+    fireplace that may or may not work. There is a small kitchen in the basement, along with laundry.
+    `,
     testimonial: `
     "710 is pretty laid back, people just hanging out. It can get fairly social at times, especially on 
     the weekends. I like the quickness of going in and out and the pool table. I also like the common areas. 
@@ -1157,7 +1311,16 @@ const dorms = [
     tech: "0.4 mi / 0.64 km",
     norris: "0.7 mi / 1.13 km",
     rock: "0.8 mi / 1.29 km",
-    description: "",
+    description: `Lincoln is widely known as one the nicest dorms on campus. Beware students who 
+    will be taking a lot of humanities classes because it's one of the northernmost dorms on Northwestern's 
+    campus. Overlooking North Beach, Lincoln has suites instead of regular-style dorms, which means you have 
+    your own bathroom with your suitemates. There are kitchens located throughout the building.
+    <br><br>
+    Lincoln offers all-gender housing. There is not a designated all-gender housing wing, and 
+    suites will be designated as all-gender housing depending on demand.
+    <br><br>
+    Accessibility note: Lincoln has ADA accessible rooms, and the building has an elevator.
+    `,
     testimonial: `
     "Pretty chill but not very tight because of how big it is. The single rooms are really small. 
     The amenities are nice (laundry on every floor). It is very far north which gets annoying when 
@@ -1214,7 +1377,10 @@ const dorms = [
     tech: "0.6 mi / 0.97 km",
     norris: "0.4 mi / 0.64 km",
     rock: "0.3 mi / 0.48 km",
-    description: "",
+    description: `1856 Orrington is one of the smallest residences on campus with only 26 
+    residents. Because it is a former sorority house, the room sizes vary. It has a kitchen 
+    and lounge/study area, along with a pool table.
+    `,
     testimonial: "No testimonials.",
     images: [ 
     {img: "https://northbynorthwestern.com/content/images/2022/05/IMG-4214.JPEG", caption: "Double room"}, 
@@ -1264,7 +1430,20 @@ const dorms = [
     tech: "0.2 mi / 0.32 km",
     norris: "0.6 mi / 0.97 km",
     rock: "0.6 mi / 0.97 km",
-    description: "",
+    description: `Historians will say these two communities at 2303 Sheridan were friends. GREEN House, a special 
+    interest residential hall focused on sustainability and CCS, the Cultural & Community Studies Residential 
+    College share one North Campus building. It's close to Sargent Dining Hall, Mudd Library and Tech. Students from a 
+    variety of majors with varied interests can find a home at this dorm nestled in the frat quad.
+    <br><br>
+    2303 Sheridan offers both singles and doubles for all-gender housing. Both CCS and GREEN House have 
+    community-style all-gender bathrooms in the all-gender sections of the dorm, but students must opt-in
+     to all-gender housing.
+    <br><br>
+    Accessibility note: 2303 used to be two buildings that were joined into one, so the basements aren't 
+    connected. The kitchen is in one half of the basement, and laundry is in the other basement. An elevator 
+    goes from the first floor to the kitchen, but not to the basement where there is laundry. Students who need 
+    to use the elevator are not able to access the laundry room.
+    `,
     testimonial: `
     "It is very community-centered and it feels homey. I like that I can come down to the lounge and there will be people in it. I don't like how much the lights in the lounge break. I like that it's clean, there's no mold in any of the showers, and it feels relatively new." 
     <br>- Class of 2024
@@ -1319,7 +1498,10 @@ const dorms = [
     tech: "0.2 mi / 0.32 km",
     norris: "0.6 mi / 0.97 km",
     rock: "0.6 mi / 0.97 km",
-    description: "",
+    description: `With fewer than 30 residents, 2307 Sheridan is one of the smallest residences on campus. 
+    It has a piano, lounge and TV area. It's near both Elder and Sargent, so residents have easy access to 
+    dining options. It's steps from the tennis courts and close to SPAC.
+    `,
     testimonial: `
     "The thin walls are awful because it means hearing and smelling everything against your will. Best part is how few people mind their business and are usually mindful of the other people living there. 2307 would be better with air conditioning and different people living there, but we can't all choose our neighbors."
     <br> - Class of 2025
@@ -1379,7 +1561,9 @@ const dorms = [
     tech: "0.3 mi / 0.48 km",
     norris: "0.6 mi / 0.97 km",
     rock: "0.7 mi / 1.13 km",
-    description: "This is just another one of those dorms located North Campus in the fraternity quad. It’s four floors without an elevator, which can sometimes be an issue with laundry on the first floor. It has nice common areas and close proximity to North Campus amenities such as dining halls, SPAC and Mudd Library.",
+    description: `This is just another one of those dorms located North Campus in the fraternity quad. It's 
+    four floors without an elevator, which can sometimes be an issue with laundry on the first floor. It has 
+    nice common areas and close proximity to North Campus amenities such as dining halls, SPAC and Mudd Library.`,
     testimonial: 
     `"It's chill, pretty quiet. The downstairs area could be used to hangout or for smaller parties, so that's cool. Everyone kinda keeps to themselves but is friendly when interacting. We have a good basement area, pool tables, fourth floor lounge is huge. The rooms are quiet and spacious, and they stay pretty cool most of the year. Laundry always breaks, and there are only two washers/dryers for the whole building. Cockroaches, house centipedes and spiders aren't a rare sight. No elevator (along with kitchen and laundry in basement) means a lot of going up and down flights of stairs. This place is nice, but I would've preferred living on the second floor so the stairs aren't an issue."
     <br> - Class of 2024
@@ -1425,7 +1609,11 @@ const dorms = [
     tech: "0.3 mi / 0.48 km",
     norris: "0.6 mi / 0.97 km",
     rock: "0.7 mi / 1.13 km",
-    description: "",
+    description: `The floorplan of 2349 is pretty unique. Two dorm rooms are joined by a small lounge 
+    area between the two rooms with closets. Although the rooms are not joined by a bathroom like in 
+    traditional suite-style housing, they are essentially suites. There is a kitchen in the basement, 
+    and students can use the pool table and piano on the first floor.
+    `,
     testimonial: "",
     images: [ 
     {img: "https://northbynorthwestern.com/content/images/2022/05/IMG_9666.jpeg", caption: "Double room"},
@@ -1455,7 +1643,11 @@ const dorms = [
     tech: "0.2 mi / 0.32 km",
     norris: "0.6 mi / 0.97 km",
     rock: "0.6 mi / 0.97 km",
-    description: "",
+    description: `
+    New dorm just dropped. It's a former fraternity house that is being converted into 
+    general housing for the 2022-23 school year. It houses 36 students in singles and 
+    doubles. Unfortunately, that's all we know.
+    `,
     testimonial: "No testimonials.",
     images: [ 
       {img: "https://northbynorthwestern.com/content/images/2022/05/New-dorm--who-dis.png", caption: "We don't have photos at this time."},],
