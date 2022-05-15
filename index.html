@@ -75,7 +75,6 @@
     h6 {
       font-size: 0.9rem;
       margin: 0;
-      margin-top: 3%;
       font-weight: 600;
       font-style: italic;
     }
@@ -181,6 +180,9 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
+    }
+    .filter {
+      margin-top: 3%;
     }
     #explanation {
       grid-area: d;
@@ -612,7 +614,7 @@
         <div id="filters">
           <h3 id="filter-title">Filters</h3>
           <form>
-            <div>
+            <div class="filter">
             <h6>Location</h6>
             <input type="checkbox" id="North" name="north" />
             <label for="North">North Campus</label>
@@ -621,7 +623,7 @@
             <label for="South">South Campus</label>
             <br />
             </div>
-            <div>
+            <div class="filter">
             <h6>Dorm Type</h6>
             <input type="checkbox" id="Hall" name="hall" />
             <label for="Hall">Res Hall</label>
@@ -632,7 +634,7 @@
             </div>
 
             <!--dorm sizes-->
-            <div>
+            <div class="filter">
             <h6>Size</h6>
             <input type="checkbox" id="verysmall" name="verysmall" />
             <label for="verysmall"> < 50 people </label>
@@ -649,7 +651,7 @@
             </div>
 
             <!--Room type-->
-            <div>
+            <div class="filter">
             <h6>Room Type</h6>
             <input type="checkbox" id="singles" name="singles" />
             <label for="singles">Singles </label>
@@ -662,7 +664,7 @@
             <br />
             </div>
             <!--misc-->
-            <div>
+            <div class="filter">
             <h6>Misc</h6>
             <input type="checkbox" id="all_gender" name="all_gender" />
             <label for="all_gender">All gender housing</label>
